@@ -1,0 +1,4 @@
+/api/node_modules
+/api/pnpm-lock.yaml
+/api/.env
+/api/src/utils/cors.js
