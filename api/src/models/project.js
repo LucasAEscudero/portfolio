@@ -9,23 +9,23 @@ module.exports = (sequelize) => {
         defaultValue: DataTypes.UUIDV4,
         primaryKey: true,
       },
-      title: {
+      title_project: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      resume: {
+      resume_project: {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      description: {
+      description_project: {
         type: DataTypes.TEXT,
         allowNull: false,
       },
-      collaborators: {
+      collaborators_project: {
         type: DataTypes.BOOLEAN,
         defaultValue: false,
       },
-      finished: {
+      finished_project: {
         type: DataTypes.BOOLEAN,
         defaultValue: false,
       },

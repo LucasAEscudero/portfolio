@@ -16,6 +16,6 @@ handlerSequelizeModels({ sequelize });
 handlerAsocciationsModels({ sequelize });
 
 module.exports = {
-  ...sequelize.modules,
+  ...sequelize.models,
   database: sequelize,
 };

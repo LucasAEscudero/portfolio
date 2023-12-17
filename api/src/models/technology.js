@@ -13,9 +13,13 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: false,
       },
-      experience: {
-        type: DataTypes.BOOLEAN,
-        defaultValue: false,
+      resume_technology: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      experience_technology: {
+        type: DataTypes.STRING,
+        defaultValue: null,
       },
     },
     {
