@@ -1,10 +1,8 @@
 const { Router } = require("express");
-const projectsRouter = require("./projectsRouter");
-const technologyRouter = require("./technologyRouter");
+const projectsRouter = require("./projects.routes");
+const technologyRouter = require("./technology.routes");
 
 const router = Router();
-
-// router.get("/", (req, res) => res.send("Yahallo"));
 
 router.use("/projects", projectsRouter);
 

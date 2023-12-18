@@ -1,14 +1,15 @@
 const express = require("express");
-const bodyParser = require("body-parser");
+// const bodyParser = require("body-parser");
 const morgan = require("morgan");
-const router = require("./routes/index");
+const router = require("./routes/index.routes");
 const cors = require("cors");
 // const corsOptions = require("./utils/cors");
 
 const server = express();
 
-server.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
-server.use(bodyParser.json({ limit: "50mb" }));
+// server.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
+// server.use(bodyParser.json({ limit: "50mb" }));
+server.use(express.json());
 server.use(morgan("dev"));
 server.use(cors());
 
