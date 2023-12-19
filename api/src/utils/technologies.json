@@ -26,7 +26,7 @@
   },
   {
     "name": "NodeJS",
-    "icon": "https://iconos8.es/icon/20909/html-5",
+    "icon": "https://raw.githubusercontent.com/LucasAEscudero/Portfolio/main/api/src/utils/icons/icons8-nodejs-96.png",
     "types": "backend"
   },
   {
@@ -38,11 +38,6 @@
     "name": "PostgreSQL",
     "icon": "https://iconos8.es/icon/20909/html-5",
     "types": "db sql"
-  },
-  {
-    "name": "MongoDB",
-    "icon": "https://iconos8.es/icon/20909/html-5",
-    "types": "db nosql"
   },
   {
     "name": "Sequelize",
