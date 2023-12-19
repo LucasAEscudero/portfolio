@@ -3,4 +3,3 @@
 /api/pnpm-lock.yaml
 /api/.env
 /api/src/utils/cors.js
-/api/src/utils/projects.json

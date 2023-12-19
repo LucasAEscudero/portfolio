@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Rick and morty",
+    "resume": "App usando la API de Rick and Morty",
+    "description": "Desarrolle una app web con un sistema de login (con validaciones hechas en javascript) que tenía como objetivo renderizar y buscar personajes del programa Rick and Morty específicos o aleatoriamente utilizando la Rick-And-Morty-API (API de Rick and Morty), ver características de cada personaje, agregarlos a tus favoritos y/o eliminarlos, además de otras funciones extras como mostrar todos los personajes y reproducir música icónica del programa.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Redux",
+      "NodeJS",
+      "Express",
+      "PostgreSQL",
+      "Sequelize"
+    ],
+    "links": {
+      "github": "https://github.com/LucasAEscudero/RaM_Proyect",
+      "youtube": [
+        "https://www.youtube.com/watch?v=zRdht6-k8bE",
+        "https://www.youtube.com/watch?v=9-lnnwLUPCM"
+      ]
+    },
+    "image": "https://private-user-images.githubusercontent.com/129696611/277136078-5e916c1f-3a78-4ab6-a9ae-0ad7b12fa6fb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDI5NDI3ODEsIm5iZiI6MTcwMjk0MjQ4MSwicGF0aCI6Ii8xMjk2OTY2MTEvMjc3MTM2MDc4LTVlOTE2YzFmLTNhNzgtNGFiNi1hOWFlLTBhZDdiMTJmYTZmYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxOFQyMzM0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02MWUxMzEwMWFlN2U3MzkyOTg5MThiNDFlZmY4NGZkZmI4M2RjYTY1N2U1MDBjN2MwYmFmMjM2Mzc0Mjc1OTkxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.HyBr_AhwTUgE6Of3v42o406bS2VlIRCtPtR8MYtuOYw",
+    "collaborators": false,
+    "finished": true
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "HTML",
+    "icon": "https://iconos8.es/icon/20909/html-5",
+    "types": "html"
+  },
+  {
+    "name": "CSS",
+    "icon": "https://iconos8.es/icon/20909/html-5",
+    "types": "styles"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "https://iconos8.es/icon/20909/html-5",
+    "types": "javascript"
+  },
+  {
+    "name": "React",
+    "icon": "https://iconos8.es/icon/20909/html-5",
+    "types": "frontend"
+  },
+  {
+    "name": "Redux",
+    "icon": "https://iconos8.es/icon/20909/html-5",
+    "types": "frontend tool"
+  },
+  {
+    "name": "NodeJS",
+    "icon": "https://iconos8.es/icon/20909/html-5",
+    "types": "backend"
+  },
+  {
+    "name": "Express",
+    "icon": "https://iconos8.es/icon/20909/html-5",
+    "types": "backend tool"
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "https://iconos8.es/icon/20909/html-5",
+    "types": "db sql"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "https://iconos8.es/icon/20909/html-5",
+    "types": "db nosql"
+  },
+  {
+    "name": "Sequelize",
+    "icon": "https://iconos8.es/icon/20909/html-5",
+    "types": "orm"
+  }
+]
