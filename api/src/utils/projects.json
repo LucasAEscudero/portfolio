@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Rick and morty",
     "resume": "App usando la API de Rick and Morty",
     "description": "Desarrolle una app web con un sistema de login (con validaciones hechas en javascript) que tenía como objetivo renderizar y buscar personajes del programa Rick and Morty específicos o aleatoriamente utilizando la Rick-And-Morty-API (API de Rick and Morty), ver características de cada personaje, agregarlos a tus favoritos y/o eliminarlos, además de otras funciones extras como mostrar todos los personajes y reproducir música icónica del programa.",

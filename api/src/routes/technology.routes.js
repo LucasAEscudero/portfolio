@@ -1,21 +1,18 @@
 const { Router } = require("express");
-// const {
-//   postTechnologyHandler,
-//   getTechnologyHandler,
-//   getTechnologiesHandler,
-//   putTechnologyHandler,
-//   deleteTechnologyHandler,
-// } = require("../handlers/technologyHandler");
+const {
+  getTechnologiesHandler,
+  getTechnologyHandler,
+} = require("../handlers/technologies.handler");
 
 const technologyRouter = Router();
 
-technologyRouter.get("/");
-technologyRouter.get("/:id");
+technologyRouter.get("/", getTechnologiesHandler);
+technologyRouter.get("/:id", getTechnologyHandler);
 
-technologyRouter.post("/");
+// technologyRouter.post("/");
 
-technologyRouter.put("/");
+// technologyRouter.put("/");
 
-technologyRouter.delete("/:id");
+// technologyRouter.delete("/:id");
 
 module.exports = technologyRouter;

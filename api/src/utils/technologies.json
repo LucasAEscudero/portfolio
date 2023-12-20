@@ -1,47 +1,56 @@
 [
   {
+    "id": 1,
     "name": "HTML",
-    "icon": "https://iconos8.es/icon/20909/html-5",
+    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/html.png",
     "types": "html"
   },
   {
+    "id": 2,
     "name": "CSS",
-    "icon": "https://iconos8.es/icon/20909/html-5",
-    "types": "styles"
+    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/css.png",
+    "types": "css"
   },
   {
+    "id": 3,
     "name": "JavaScript",
-    "icon": "https://iconos8.es/icon/20909/html-5",
+    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/javascript.png",
     "types": "javascript"
   },
   {
+    "id": 4,
     "name": "React",
-    "icon": "https://iconos8.es/icon/20909/html-5",
+    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/react.png",
     "types": "frontend"
   },
   {
+    "id": 5,
     "name": "Redux",
-    "icon": "https://iconos8.es/icon/20909/html-5",
+    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/redux.png",
     "types": "frontend tool"
   },
   {
+    "id": 6,
     "name": "NodeJS",
-    "icon": "https://raw.githubusercontent.com/LucasAEscudero/Portfolio/main/api/src/utils/icons/icons8-nodejs-96.png",
+    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/nodejs.png",
     "types": "backend"
   },
   {
+    "id": 7,
     "name": "Express",
-    "icon": "https://iconos8.es/icon/20909/html-5",
+    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/express.png",
     "types": "backend tool"
   },
   {
+    "id": 8,
     "name": "PostgreSQL",
-    "icon": "https://iconos8.es/icon/20909/html-5",
+    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/postgresql.png",
     "types": "db sql"
   },
   {
+    "id": 9,
     "name": "Sequelize",
-    "icon": "https://iconos8.es/icon/20909/html-5",
+    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/sequelize.png",
     "types": "orm"
   }
 ]
