@@ -1,5 +1,5 @@
 // const technologies = require("./technologies.json");
-import technologies from "./technologies.json";
+import technologies from "../../utils/technologies.json";
 
 const Technologies = () => {
   console.log(technologies);
