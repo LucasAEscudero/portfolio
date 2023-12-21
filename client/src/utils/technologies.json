@@ -2,55 +2,55 @@
   {
     "id": 1,
     "name": "HTML",
-    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/html.png",
+    "icon": "https://raw.githubusercontent.com/LucasAEscudero/Portfolio/main/client/src/assets/icons/html.png",
     "types": "frontend"
   },
   {
     "id": 2,
     "name": "CSS",
-    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/css.png",
+    "icon": "https://raw.githubusercontent.com/LucasAEscudero/Portfolio/main/client/src/assets/icons/css.png",
     "types": "frontend"
   },
   {
     "id": 3,
     "name": "JavaScript",
-    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/javascript.png",
+    "icon": "https://raw.githubusercontent.com/LucasAEscudero/Portfolio/main/client/src/assets/icons/javascript.png",
     "types": "frontend"
   },
   {
     "id": 4,
     "name": "React",
-    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/react.png",
+    "icon": "https://raw.githubusercontent.com/LucasAEscudero/Portfolio/main/client/src/assets/icons/react.png",
     "types": "frontend"
   },
   {
     "id": 5,
     "name": "Redux",
-    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/redux.png",
+    "icon": "https://raw.githubusercontent.com/LucasAEscudero/Portfolio/main/client/src/assets/icons/redux.png",
     "types": "frontend"
   },
   {
     "id": 6,
     "name": "NodeJS",
-    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/nodejs.png",
+    "icon": "https://raw.githubusercontent.com/LucasAEscudero/Portfolio/main/client/src/assets/icons/nodejs.png",
     "types": "backend"
   },
   {
     "id": 7,
     "name": "Express",
-    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/express.png",
-    "types": "backend tool"
+    "icon": "https://raw.githubusercontent.com/LucasAEscudero/Portfolio/main/client/src/assets/icons/express.png",
+    "types": "backend"
   },
   {
     "id": 8,
     "name": "PostgreSQL",
-    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/postgresql.png",
-    "types": "db sql"
+    "icon": "https://raw.githubusercontent.com/LucasAEscudero/Portfolio/main/client/src/assets/icons/postgresql.png",
+    "types": "backend"
   },
   {
     "id": 9,
     "name": "Sequelize",
-    "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/sequelize.png",
-    "types": "orm"
+    "icon": "https://raw.githubusercontent.com/LucasAEscudero/Portfolio/main/client/src/assets/icons/sequelize.png",
+    "types": "backend"
   }
 ]
