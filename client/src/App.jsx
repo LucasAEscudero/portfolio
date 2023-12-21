@@ -5,6 +5,7 @@ import Nav from "./views/nav/Nav";
 import "./App.css";
 import "bootswatch/dist/cosmo/bootstrap.min.css";
 import Profile from "./views/profile/Profile";
+import Technologies from "./views/technologies/Technologies";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
     <>
       <Nav />
       <Profile />
+      <Technologies />
     </>
   );
 }

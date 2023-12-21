@@ -3,19 +3,19 @@
     "id": 1,
     "name": "HTML",
     "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/html.png",
-    "types": "html"
+    "types": "frontend"
   },
   {
     "id": 2,
     "name": "CSS",
     "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/css.png",
-    "types": "css"
+    "types": "frontend"
   },
   {
     "id": 3,
     "name": "JavaScript",
     "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/javascript.png",
-    "types": "javascript"
+    "types": "frontend"
   },
   {
     "id": 4,
@@ -27,7 +27,7 @@
     "id": 5,
     "name": "Redux",
     "icon": "https://github.com/LucasAEscudero/Portfolio/blob/main/api/src/utils/icons/redux.png",
-    "types": "frontend tool"
+    "types": "frontend"
   },
   {
     "id": 6,
