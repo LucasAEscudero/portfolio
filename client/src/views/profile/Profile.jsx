@@ -4,8 +4,8 @@ const Profile = () => {
       <div className="row">
         <div className="col-4">
           <img
-            className="w-100 border border-warning rounded-circle"
-            src="https://raw.githubusercontent.com/LucasAEscudero/Portfolio/main/client/src/assets/Portfolio-Profile.jpg"
+            className="w-100 border border-dark rounded-circle"
+            src="/src/assets/Portfolio-Profile.jpg"
             alt="Profile photo"
           />
         </div>

@@ -1,6 +1,9 @@
 const Nav = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <nav
+      class="navbar navbar-expand-lg bg-primary position-relative w-100"
+      data-bs-theme="dark"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           Lucas Escudero
@@ -25,14 +28,14 @@ const Nav = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">
-                Projectos
-                <span class="visually-hidden">(current)</span>
+              <a class="nav-link" href="#">
+                Tecnologias
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Tecnologias
+              <a class="nav-link active" href="#">
+                Proyectos
+                <span class="visually-hidden">(current)</span>
               </a>
             </li>
             <li class="nav-item">
