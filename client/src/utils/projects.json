@@ -46,5 +46,28 @@
     "image": "/src/assets/projectsAssets/Videogames.png",
     "collaborators": false,
     "finished": true
+  },
+  {
+    "id": 3,
+    "title": "Cer03",
+    "resume": "App de posventa",
+    "description": "Junto con un grupo de compañeros desarrollamos una aplicación web de posventa, con el propósito de simplificar el trabajo a los pequeños negocios de la gestión de ventas y productos, y potenciar aún más a las grandes empresas.La pagina cuenta con dos tipos de usuarios, el de empresa y el de vendedor, por lo cual las empresas pueden registrarse (los vendedores son creados por la misma empresa posteriormente) y tanto vendedores como las empresas pueden iniciar sesión en un mismo apartado (todas las opciones mencionadas cuentan con autenticación de terceros, google).Las empresas pueden registrarse y iniciar sesión (con posibilidad de hacerlo con su cuenta de google). Dentro de la aplicación, las empresas cuentan con formularios de creación de sucursales, vendedores y productos, también contiene una dashboard para empresas con el fin de obtener información acerca de sus sucursales, un apartado de los registros de las ventas de todas las sucursales, una pasarela de pagos para acceder a beneficios como filtros (esto afecta tambien a las cuentas de vendedores creadas de la misma empresa) e ilimitada cantidad de creación de sucursales y empleados (teniendo un plan básico y otro premium, y iniciando con el plan free/gratuito), y un apartado para reviews (las cuales son mostradas en la landing page).Los vendedores/empleados solamente pueden iniciar sesión con las cuentas otorgadas por la misma empresa (siendo que esta crea las cuentas). Dentro de la aplicación, los vendedores cuentan con un carrito de compras y un apartado de registros de las ventas hechas en la sucursal.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Redux",
+      "NodeJS",
+      "Express",
+      "PostgreSQL",
+      "Sequelize"
+    ],
+    "links": {
+      "deploy": "https://cer03.vercel.app/"
+    },
+    "image": "/src/assets/projectsAssets/Cer03.jpeg",
+    "collaborators": true,
+    "finished": true
   }
 ]
