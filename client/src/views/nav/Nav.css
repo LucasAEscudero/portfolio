@@ -1,0 +1,5 @@
+#navBar {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}

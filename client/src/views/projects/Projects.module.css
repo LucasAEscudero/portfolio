@@ -1,4 +1,8 @@
 #titleProject {
-  /* position: absolute; */
   z-index: 50;
+}
+
+#projectLinks {
+  padding-left: 4px;
+  bottom: 0;
 }

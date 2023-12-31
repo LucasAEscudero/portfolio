@@ -8,7 +8,7 @@ import Profile from "./views/profile/Profile";
 import Technologies from "./views/technologies/Technologies";
 import Projects from "./views/projects/Projects";
 import Contact from "./views/contact/Contact";
-import Hobbies from "./views/hobbies/Hobbies";
+// import Hobbies from "./views/hobbies/Hobbies";
 import Curriculum from "./views/curriculum/Curriculum";
 
 function App() {

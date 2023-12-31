@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Rick and morty",
     "resume": "App usando la API de Rick and Morty",
-    "description": "Desarrolle una app web con un sistema de login (con validaciones hechas en javascript) que tenía como objetivo renderizar y buscar personajes del programa Rick and Morty específicos o aleatoriamente utilizando la Rick-And-Morty-API (API de Rick and Morty), ver características de cada personaje, agregarlos a tus favoritos y/o eliminarlos, además de otras funciones extras como mostrar todos los personajes y reproducir música icónica del programa.",
+    "description": "Desarrolle una app web con un sistema de login (con validaciones hechas en javascript) que tenía como objetivo renderizar y buscar personajes del programa Rick and Morty específicos o aleatoriamente utilizando la Rick-And-Morty-API (API de Rick and Morty), ver características de cada personaje, agregarlos a tus favoritos y/o eliminarlos, además de otras funciones extras como filtrarlos y ordenarlos, mostrar todos los personajes (catalogo) y reproducir música icónica del programa",
     "technologies": [
       "HTML",
       "CSS",
@@ -20,6 +20,30 @@
       "youtube": "https://www.youtube.com/watch?v=zRdht6-k8bE"
     },
     "image": "/src/assets/projectsAssets/RickandMorty.jpeg",
+    "collaborators": false,
+    "finished": true
+  },
+  {
+    "id": 2,
+    "title": "Videogames",
+    "resume": "App usando la API de Rawg",
+    "description": "Desarrolle una aplicación web que renderiza videojuegos en tarjetas de la API de RAGW (API de videojuegos) con un paginado de 15 videojuegos (cada uno con sus respectivos detalles) por pagina + filtros y ordenamientos, en la cual se puede buscar (15 primeros resultados) y crear un videojuego como tal a través de un formulario con validaciones en javascript. ",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Redux",
+      "NodeJS",
+      "Express",
+      "PostgreSQL",
+      "Sequelize"
+    ],
+    "links": {
+      "github": "https://github.com/LucasAEscudero/Videogames_Proyect",
+      "deploy": "https://videogamesfront-production-f967.up.railway.app/"
+    },
+    "image": "/src/assets/projectsAssets/Videogames.png",
     "collaborators": false,
     "finished": true
   }

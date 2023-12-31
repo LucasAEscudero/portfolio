@@ -5,7 +5,7 @@ import technologies from "../../utils/technologies.json";
 const Technologies = () => {
   return (
     <Fade>
-      <div className="container-fluid">
+      <div className="container-fluid py-3 bg-primary">
         <h2>Tecnologias</h2>
         <div className="row">
           <h2>Frontend</h2>
