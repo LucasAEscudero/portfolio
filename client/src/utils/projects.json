@@ -64,6 +64,7 @@
       "Sequelize"
     ],
     "links": {
+      "github": "https://github.com/MorasDeFresa/Cer03",
       "deploy": "https://cer03.vercel.app/"
     },
     "image": "/src/assets/projectsAssets/Cer03.jpeg",

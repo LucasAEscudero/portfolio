@@ -5,7 +5,7 @@ import technologies from "../../utils/technologies.json";
 const Technologies = () => {
   return (
     <Fade>
-      <div className="container-fluid py-3 bg-primary" id="technologies">
+      <div className="container-fluid py-3" id="technologies">
         <h2>Tecnologias</h2>
         <div className="d-flex justify-content-center">
           <table>

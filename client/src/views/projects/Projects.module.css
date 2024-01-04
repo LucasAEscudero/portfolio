@@ -5,4 +5,9 @@
 #projectLinks {
   padding-left: 4px;
   bottom: 0;
+  /* background-color: #1a365d; */
+}
+
+#projectCard {
+  background-color: #1a365d;
 }
