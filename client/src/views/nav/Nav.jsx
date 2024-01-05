@@ -1,3 +1,5 @@
+import NavItem from "../../components/navItem/NavItem";
+
 import "./Nav.css";
 
 const Nav = () => {
@@ -23,35 +25,20 @@ const Nav = () => {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarColor01">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="#profile">
-                Perfil
-                <span class="visually-hidden">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#curriculum">
-                Curriculum
-                <span class="visually-hidden">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#technologies">
-                Tecnologias
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#projects">
-                Proyectos
-                <span class="visually-hidden">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">
-                Contacto
-              </a>
-            </li>
+          <ul className="navbar-nav me-auto">
+            {/* <NavItem key={"perfil"} name={"Perfil"} link={"#profile"} /> */}
+            <NavItem
+              key={"curriculum"}
+              name={"Curriculum"}
+              link={"#curriculum"}
+            />
+            <NavItem
+              key={"tecnologias"}
+              name={"Tecnologias"}
+              link={"#technologies"}
+            />
+            <NavItem key={"proyectos"} name={"Proyectos"} link={"#projets"} />
+            <NavItem key={"contacto"} name={"Contacto"} link={"#contact"} />
           </ul>
         </div>
       </div>
