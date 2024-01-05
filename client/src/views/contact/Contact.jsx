@@ -32,7 +32,6 @@ const Contact = () => {
               <a
                 href="https://www.linkedin.com/in/lucas-escudero-54195322b/"
                 style={{ color: "#373a3c" }}
-                id="info"
                 target="_blank"
               >
                 <FaLinkedin size={30} />
@@ -43,7 +42,6 @@ const Contact = () => {
               <a
                 href="https://github.com/LucasAEscudero"
                 style={{ color: "#373a3c" }}
-                id="info"
                 target="_blank"
               >
                 <IoLogoGithub size={30} />

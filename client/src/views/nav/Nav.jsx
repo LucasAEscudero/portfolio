@@ -26,7 +26,7 @@ const Nav = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarColor01">
           <ul className="navbar-nav me-auto">
-            {/* <NavItem key={"perfil"} name={"Perfil"} link={"#profile"} /> */}
+            <NavItem key={"perfil"} name={"Perfil"} link={"#profile"} />
             <NavItem
               key={"curriculum"}
               name={"Curriculum"}
@@ -37,7 +37,7 @@ const Nav = () => {
               name={"Tecnologias"}
               link={"#technologies"}
             />
-            <NavItem key={"proyectos"} name={"Proyectos"} link={"#projets"} />
+            <NavItem key={"proyectos"} name={"Proyectos"} link={"#projects"} />
             <NavItem key={"contacto"} name={"Contacto"} link={"#contact"} />
           </ul>
         </div>
