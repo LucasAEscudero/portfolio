@@ -12,7 +12,7 @@ const Profile = () => {
           <Fade>
             <img
               className="w-100 border border-dark rounded-circle"
-              src="/src/assets/Portfolio-Profile.jpg"
+              src="../../assets/Portfolio-Profile.jpg"
               alt="Profile photo"
             />
           </Fade>
