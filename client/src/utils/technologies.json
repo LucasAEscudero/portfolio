@@ -2,61 +2,66 @@
   {
     "id": 1,
     "name": "HTML",
-    "icon": "/src/assets/technologiesIcons/html.png",
     "types": "frontend"
   },
   {
     "id": 2,
     "name": "CSS",
-    "icon": "../../assets/technologiesIcons/css.png",
     "types": "frontend"
   },
   {
     "id": 3,
     "name": "JavaScript",
-    "icon": "/src/assets/technologiesIcons/javascript.png",
     "types": "frontend"
   },
   {
     "id": 4,
     "name": "React",
-    "icon": "/src/assets/technologiesIcons/react.png",
+    "types": "frontend"
+  },
+  {
+    "id": 4,
+    "name": "Vite",
     "types": "frontend"
   },
   {
     "id": 5,
     "name": "Redux",
-    "icon": "/src/assets/technologiesIcons/redux.png",
     "types": "frontend"
   },
   {
     "id": 6,
     "name": "JavaScript",
-    "icon": "/src/assets/technologiesIcons/javascript.png",
     "types": "backend"
   },
   {
     "id": 7,
     "name": "NodeJS",
-    "icon": "/src/assets/technologiesIcons/nodejs.png",
     "types": "backend"
   },
   {
     "id": 8,
     "name": "Express",
-    "icon": "/src/assets/technologiesIcons/express.png",
     "types": "backend"
   },
   {
     "id": 9,
     "name": "PostgreSQL",
-    "icon": "/src/assets/technologiesIcons/postgresql.png",
     "types": "backend"
   },
   {
     "id": 10,
     "name": "Sequelize",
-    "icon": "/src/assets/technologiesIcons/sequelize.png",
     "types": "backend"
+  },
+  {
+    "id": 11,
+    "name": "Git",
+    "types": "devops"
+  },
+  {
+    "id": 12,
+    "name": "Jira",
+    "types": "devops"
   }
 ]

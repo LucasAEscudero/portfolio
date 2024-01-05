@@ -10,7 +10,7 @@ const Profile = () => {
     >
       <div className="row">
         <div className="col-4">
-          <Fade>
+          <Fade triggerOnce>
             <img
               className="w-100 border border-dark rounded-circle"
               src={face}
@@ -19,9 +19,10 @@ const Profile = () => {
           </Fade>
         </div>
         <div className="col-8 d-flex flex-column align-items-start justify-content-center">
-          <Fade>
-            <h1>Lucas Escudero</h1>
-            <div className="d-flex flex-column align-content-start">
+          {/* <Fade cascade triggerOnce> */}
+          <h1>Lucas Escudero</h1>
+          <div className="d-flex flex-column align-content-start">
+            <Fade cascade triggerOnce>
               <p className="text-start fs-5">
                 Soy un Desarrollador Web FullStack en constante crecimiento y
                 estudiante del primer año de la carrera de Ingeniería en
@@ -37,8 +38,9 @@ const Profile = () => {
                 para enfrentar nuevos desafíos y ofrecer soluciones web modernas
                 y eficientes.
               </p>
-            </div>
-          </Fade>
+            </Fade>
+          </div>
+          {/* </Fade> */}
         </div>
       </div>
     </div>

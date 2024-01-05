@@ -6,14 +6,12 @@ const Curriculum = () => {
   return (
     <div className="container-fluid py-3" id="curriculum">
       <div className="mt-4 mb-4">
-        <Fade>
+        <Fade cascade triggerOnce>
           <h2 className="fs-4">
-            Si esta interesado en mi perfil, no dude en decargar mi CV desde el
-            siguiente boton!
+            Si estas interesado en mi perfil, no dudes en decargar mi CV desde
+            el siguiente boton!
           </h2>
-        </Fade>
-        <div className="d-flex justify-content-center">
-          <Fade>
+          <div className="d-flex justify-content-center">
             <a
               href={cv}
               download="CV - Escudero Lucas"
@@ -23,8 +21,8 @@ const Curriculum = () => {
                 Descargue mi CV aqui!
               </button>
             </a>
-          </Fade>
-        </div>
+          </div>
+        </Fade>
       </div>
     </div>
   );

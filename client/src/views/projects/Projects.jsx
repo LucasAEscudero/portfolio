@@ -18,17 +18,20 @@ const Projects = () => {
   };
 
   return (
-    <Fade>
-      <div className="container-fluid py-3" id="projects">
-        <div className="row">
-          <h2>Proyectos</h2>
-        </div>
-        <div className="row justify-content-md-center align-items-start gap-3">
+    <div className="container py-3" id="projects">
+      <div className="row">
+        <h2>Proyectos</h2>
+      </div>
+      <div className="row">
+        <Fade className="col" cascade triggerOnce>
           {projects?.map((project) => (
             <div
-              key={project?.id}
-              className="col-4 p-0 border border-3 rounded-3 position-relative pb-1"
-              id={styles.projectCard}
+              key={project.id}
+              className="card rounded-3 p-0 mb-2"
+              style={{
+                maxWidth: "20rem",
+                backgroundColor: "#1a365d",
+              }}
             >
               <a
                 href={
@@ -40,43 +43,32 @@ const Projects = () => {
               >
                 <img
                   src={projectImages[project.var]}
-                  alt={project?.title}
-                  style={{
-                    minWidth: "100%",
-                    maxWidth: "300px",
-                  }}
+                  alt={`${project.title} Image`}
                   className="rounded-top-3"
+                  style={{ minWidth: "100%", maxWidth: "300px" }}
                 />
               </a>
+              {/* </div> */}
               <div
-                className="d-flex justify-content-between postion-absolute rounded-buttom-3 mt-1 p-1"
-                id={styles.projectLinks}
+                className="card-body p-1"
+                styles={{ backgroundColor: "#1a365d" }}
               >
-                <h3
-                  style={{ zIndex: 100 }}
-                  className="text-white bottom-0"
-                  id={styles.titleProject}
-                >
-                  {project?.title}
-                </h3>
-                <div className="rounded-buttom-3">
-                  {project?.links?.github && (
-                    <a
-                      href={project.links.github}
-                      className="p-1"
-                      target="_blank"
-                      style={{ textDecoration: "none" }}
-                    >
-                      <IoLogoGithub size={30} />
-                    </a>
-                  )}
+                <div className="card-title" styles={{ backgroundColor: "" }}>
+                  <h3 className="float-start text-white">{project.title}</h3>
+                  <a
+                    href={project.links.github}
+                    target="_blank"
+                    className="float-end pt-1"
+                  >
+                    <IoLogoGithub size={30} />
+                  </a>
                 </div>
               </div>
             </div>
           ))}
-        </div>
+        </Fade>
       </div>
-    </Fade>
+    </div>
   );
 };
 

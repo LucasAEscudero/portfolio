@@ -9,25 +9,21 @@ import Profile from "./views/profile/Profile";
 import Technologies from "./views/technologies/Technologies";
 import Projects from "./views/projects/Projects";
 import Contact from "./views/contact/Contact";
-// import Hobbies from "./views/hobbies/Hobbies";
 import Curriculum from "./views/curriculum/Curriculum";
+import { Fade } from "react-awesome-reveal";
 
 function App() {
-  // const [notification, setNotification] = useState(false);
-
-  // const handlerNotification = (event) => {
-  //   // setNotification(true);
-  //   console.log(event.target.value);
-  //   toast(`El ${event.target.innerHTML} ha sido copiado con exito`);
-  // };
-
   return (
     <>
       <Nav />
-      <Profile />
-      <Curriculum />
-      <Technologies />
-      <Projects />
+      <Fade cascade triggerOnce>
+        <Profile />
+        <div className="container">
+          <Curriculum />
+          <Technologies />
+          <Projects />
+        </div>
+      </Fade>
       <Contact />
       <Toaster />
     </>
