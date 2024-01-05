@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+/* my styles */
+[id] {
+  scroll-margin-top: 3.8em;
+}

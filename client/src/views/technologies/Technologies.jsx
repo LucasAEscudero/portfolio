@@ -10,11 +10,11 @@ const Technologies = () => {
         <div className="d-flex justify-content-center">
           <table>
             <thead>
-              <th className="border border-dark fs-3">Frontend</th>
-              <th className="border border-dark fs-3">Backend</th>
+              <th className="border border-primary fs-3">Frontend</th>
+              <th className="border border-primary fs-3">Backend</th>
             </thead>
             <tbody>
-              <td className="border border-dark w-50">
+              <td className="border border-primary w-50">
                 <div className="d-flex flex-wrap justify-content-center">
                   {technologies?.map((technology) => {
                     if (technology?.types === "frontend")
@@ -39,7 +39,7 @@ const Technologies = () => {
                   })}
                 </div>
               </td>
-              <td className="border border-dark d-flex flex-wrap">
+              <td className="border border-top-0 border-start-0 border-primary d-flex flex-wrap">
                 <div className="d-flex flex-wrap justify-content-center">
                   {technologies?.map((technology) => {
                     if (technology?.types === "backend")

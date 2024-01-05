@@ -2,20 +2,23 @@ import Fade from "react-awesome-reveal";
 
 const Profile = () => {
   return (
-    <Fade>
-      <div
-        className="container-fluid py-3 bg-primary bg-gradient w-100"
-        id="profile"
-      >
-        <div className="row">
-          <div className="col-4">
+    // <Fade>
+    <div
+      className="container-fluid py-3 bg-primary bg-gradient w-100"
+      id="profile"
+    >
+      <div className="row">
+        <div className="col-4">
+          <Fade>
             <img
               className="w-100 border border-dark rounded-circle"
               src="/src/assets/Portfolio-Profile.jpg"
               alt="Profile photo"
             />
-          </div>
-          <div className="col-8 d-flex flex-column align-items-start justify-content-center">
+          </Fade>
+        </div>
+        <div className="col-8 d-flex flex-column align-items-start justify-content-center">
+          <Fade>
             <h1>Lucas Escudero</h1>
             <div className="d-flex flex-column align-content-start">
               <p className="text-start fs-5">
@@ -34,10 +37,10 @@ const Profile = () => {
                 y eficientes.
               </p>
             </div>
-          </div>
+          </Fade>
         </div>
       </div>
-    </Fade>
+    </div>
   );
 };
 
