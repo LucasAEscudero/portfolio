@@ -1,8 +1,29 @@
 import Fade from "react-awesome-reveal";
+// icons
+import iconHtml from "../../assets/technologiesIcons/html.png";
+import iconCss from "../../assets/technologiesIcons/css.png";
+import iconJavascript from "../../assets/technologiesIcons/javascript.png";
+import iconReact from "../../assets/technologiesIcons/react.png";
+import iconRedux from "../../assets/technologiesIcons/redux.png";
+import iconNodejs from "../../assets/technologiesIcons/nodejs.png";
+import iconExpress from "../../assets/technologiesIcons/express.png";
+import iconPostgresql from "../../assets/technologiesIcons/postgresql.png";
+import iconSequelize from "../../assets/technologiesIcons/sequelize.png";
 
 import technologies from "../../utils/technologies.json";
 
 const Technologies = () => {
+  const icons = {
+    html: iconHtml,
+    css: iconCss,
+    javascript: iconJavascript,
+    react: iconReact,
+    redux: iconRedux,
+    nodejs: iconNodejs,
+    express: iconExpress,
+    postgresql: iconPostgresql,
+    sequelize: iconSequelize,
+  };
   return (
     <Fade>
       <div className="container-fluid py-3" id="technologies">
@@ -25,7 +46,7 @@ const Technologies = () => {
                           style={{ width: "20%" }}
                         >
                           <img
-                            src={technology.icon}
+                            src={icons[technology.name.toLowerCase()]}
                             alt={technology?.name}
                             style={{
                               // minWidth: "10%",
@@ -50,7 +71,7 @@ const Technologies = () => {
                           style={{ width: "20%" }}
                         >
                           <img
-                            src={technology?.icon}
+                            src={icons[technology.name.toLowerCase()]}
                             alt={technology?.name}
                             style={{
                               // minWidth: "50%",

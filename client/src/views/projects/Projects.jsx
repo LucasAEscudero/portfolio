@@ -3,9 +3,20 @@ import { IoLogoGithub } from "react-icons/io";
 
 import projects from "../../utils/projects.json";
 
+//images
+import rickandmorty from "../../assets/projectsAssets/RickandMorty.jpeg";
+import videogames from "../../assets/projectsAssets/Videogames.png";
+import cer03 from "../../assets/projectsAssets/Cer03.jpeg";
+
 import styles from "./Projects.module.css";
 
 const Projects = () => {
+  const projectImages = {
+    rickandmorty,
+    videogames,
+    cer03,
+  };
+
   return (
     <Fade>
       <div className="container-fluid py-3" id="projects">
@@ -28,7 +39,7 @@ const Projects = () => {
                 target="_blank"
               >
                 <img
-                  src={project?.image}
+                  src={projectImages[project.var]}
                   alt={project?.title}
                   style={{
                     minWidth: "100%",
