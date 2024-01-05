@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "Rick and morty",
+    "var": "rickandmorty",
     "resume": "App usando la API de Rick and Morty",
     "description": "Desarrolle una app web con un sistema de login (con validaciones hechas en javascript) que tenía como objetivo renderizar y buscar personajes del programa Rick and Morty específicos o aleatoriamente utilizando la Rick-And-Morty-API (API de Rick and Morty), ver características de cada personaje, agregarlos a tus favoritos y/o eliminarlos, además de otras funciones extras como filtrarlos y ordenarlos, mostrar todos los personajes (catalogo) y reproducir música icónica del programa",
     "technologies": [
@@ -26,6 +27,7 @@
   {
     "id": 2,
     "title": "Videogames",
+    "var": "videogames",
     "resume": "App usando la API de Rawg",
     "description": "Desarrolle una aplicación web que renderiza videojuegos en tarjetas de la API de RAGW (API de videojuegos) con un paginado de 15 videojuegos (cada uno con sus respectivos detalles) por pagina + filtros y ordenamientos, en la cual se puede buscar (15 primeros resultados) y crear un videojuego como tal a través de un formulario con validaciones en javascript. ",
     "technologies": [
@@ -50,6 +52,7 @@
   {
     "id": 3,
     "title": "Cer03",
+    "var": "cer03",
     "resume": "App de posventa",
     "description": "Junto con un grupo de compañeros desarrollamos una aplicación web de posventa, con el propósito de simplificar el trabajo a los pequeños negocios de la gestión de ventas y productos, y potenciar aún más a las grandes empresas.La pagina cuenta con dos tipos de usuarios, el de empresa y el de vendedor, por lo cual las empresas pueden registrarse (los vendedores son creados por la misma empresa posteriormente) y tanto vendedores como las empresas pueden iniciar sesión en un mismo apartado (todas las opciones mencionadas cuentan con autenticación de terceros, google).Las empresas pueden registrarse y iniciar sesión (con posibilidad de hacerlo con su cuenta de google). Dentro de la aplicación, las empresas cuentan con formularios de creación de sucursales, vendedores y productos, también contiene una dashboard para empresas con el fin de obtener información acerca de sus sucursales, un apartado de los registros de las ventas de todas las sucursales, una pasarela de pagos para acceder a beneficios como filtros (esto afecta tambien a las cuentas de vendedores creadas de la misma empresa) e ilimitada cantidad de creación de sucursales y empleados (teniendo un plan básico y otro premium, y iniciando con el plan free/gratuito), y un apartado para reviews (las cuales son mostradas en la landing page).Los vendedores/empleados solamente pueden iniciar sesión con las cuentas otorgadas por la misma empresa (siendo que esta crea las cuentas). Dentro de la aplicación, los vendedores cuentan con un carrito de compras y un apartado de registros de las ventas hechas en la sucursal.",
     "technologies": [

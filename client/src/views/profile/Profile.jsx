@@ -1,3 +1,4 @@
+import face from "../../assets/Portfolio-Profile.jpg";
 import Fade from "react-awesome-reveal";
 
 const Profile = () => {
@@ -12,7 +13,7 @@ const Profile = () => {
           <Fade>
             <img
               className="w-100 border border-dark rounded-circle"
-              src="../../assets/Portfolio-Profile.jpg"
+              src={face}
               alt="Profile photo"
             />
           </Fade>
