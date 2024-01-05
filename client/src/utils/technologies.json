@@ -8,7 +8,7 @@
   {
     "id": 2,
     "name": "CSS",
-    "icon": "/src/assets/technologiesIcons/css.png",
+    "icon": "../../assets/technologiesIcons/css.png",
     "types": "frontend"
   },
   {
