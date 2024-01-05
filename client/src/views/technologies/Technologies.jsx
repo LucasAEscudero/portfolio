@@ -25,7 +25,7 @@ const Technologies = () => {
                           style={{ width: "20%" }}
                         >
                           <img
-                            src={technology?.icon}
+                            src={technology.icon}
                             alt={technology?.name}
                             style={{
                               // minWidth: "10%",
