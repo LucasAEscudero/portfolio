@@ -3,7 +3,6 @@ import Fade from "react-awesome-reveal";
 
 const Profile = ({ isDarkMode }) => {
   return (
-    // <Fade>
     <div
       className={`container-fluid py-3 w-100`}
       id="profile"
@@ -20,28 +19,24 @@ const Profile = ({ isDarkMode }) => {
           </Fade>
         </div>
         <div className="col-8 d-flex flex-column align-items-start justify-content-center">
-          {/* <Fade cascade triggerOnce> */}
-          <h1>Lucas Escudero</h1>
-          <div className="d-flex flex-column align-content-start">
-            <Fade cascade triggerOnce>
-              <p className="text-start fs-5">
-                Soy un Desarrollador Web FullStack en constante crecimiento y
-                estudiante del primer año de la carrera de Ingeniería en
-                Informática.
-              </p>
-              <p className="text-start fs-5">
-                Mi enfoque se centra en la mejora continua, por lo que
-                actualmente me encuentro explorando tecnologías como Typescript,
-                Bootstrap y MongoDB.
-              </p>
-              <p className="text-start fs-5">
-                Estoy totalmente comprometido con la innovación, estoy listo
-                para enfrentar nuevos desafíos y ofrecer soluciones web modernas
-                y eficientes.
-              </p>
-            </Fade>
-          </div>
-          {/* </Fade> */}
+          <Fade cascade triggerOnce>
+            <h1>Lucas Escudero</h1>
+            <p className="text-start fs-5">
+              Soy un Desarrollador Web FullStack en constante crecimiento y
+              estudiante del primer año de la carrera de Ingeniería en
+              Informática.
+            </p>
+            <p className="text-start fs-5">
+              Mi enfoque se centra en la mejora continua, por lo que actualmente
+              me encuentro explorando tecnologías como Typescript, Bootstrap y
+              MongoDB.
+            </p>
+            <p className="text-start fs-5">
+              Estoy totalmente comprometido con la innovación, estoy listo para
+              enfrentar nuevos desafíos y ofrecer soluciones web modernas y
+              eficientes.
+            </p>
+          </Fade>
         </div>
       </div>
     </div>
