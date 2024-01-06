@@ -1,18 +1,19 @@
 import face from "../../assets/Portfolio-Profile.jpg";
 import Fade from "react-awesome-reveal";
 
-const Profile = () => {
+const Profile = ({ isDarkMode }) => {
   return (
     // <Fade>
     <div
-      className="container-fluid py-3 bg-primary bg-gradient w-100"
+      className={`container-fluid py-3 w-100`}
       id="profile"
+      style={{ backgroundColor: `${!isDarkMode ? "#3b82f6" : "#1a365d"}` }}
     >
       <div className="row">
         <div className="col-4">
           <Fade triggerOnce>
             <img
-              className="w-100 border border-dark rounded-circle"
+              className="w-100 rounded-circle"
               src={face}
               alt="Profile photo"
             />

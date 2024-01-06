@@ -32,9 +32,9 @@ const TechCards = ({ technologies }) => {
   return (
     <div className="d-flex flex-wrap justify-content-center mt-1">
       <Fade cascade triggerOnce>
-        {technologies?.map((technology) => (
+        {technologies?.map((technology, i) => (
           <TechCard
-            key={technology?.id}
+            key={i}
             name={technology?.name}
             icon={icons[technology?.name.toLowerCase()]}
           />

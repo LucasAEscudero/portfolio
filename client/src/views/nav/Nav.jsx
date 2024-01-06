@@ -1,13 +1,17 @@
+import { useState } from "react";
+import { DarkModeSwitch } from "react-toggle-dark-mode";
+
 import NavItem from "../../components/navItem/NavItem";
 
 import "./Nav.css";
 
-const Nav = () => {
+const Nav = ({ isDarkMode, toggleDarkMode }) => {
   return (
     <nav
-      class="navbar navbar-expand-lg bg-primary w-100 border-primary"
+      class="navbar navbar-expand-lg w-100 border-buttom-primary"
       data-bs-theme="dark"
       id="navBar"
+      style={{ backgroundColor: `${isDarkMode ? "#102f5c" : "#336fd6"}` }}
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -40,6 +44,14 @@ const Nav = () => {
             <NavItem key={"proyectos"} name={"Proyectos"} link={"#projects"} />
             <NavItem key={"contacto"} name={"Contacto"} link={"#contact"} />
           </ul>
+          <div>
+            <DarkModeSwitch
+              checked={isDarkMode}
+              onChange={toggleDarkMode}
+              sunColor="white"
+              // size={120}
+            />
+          </div>
         </div>
       </div>
     </nav>

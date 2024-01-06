@@ -25,9 +25,9 @@ const Projects = () => {
       </div>
       <div className="row">
         <Fade className="col" cascade triggerOnce>
-          {projects?.map((project) => (
+          {projects?.map((project, i) => (
             <ProjectCard
-              key={project?.id}
+              key={i}
               title={project?.title}
               show={
                 project.links.deploy
