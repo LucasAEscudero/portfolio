@@ -12,10 +12,11 @@ const Contact = ({ isDarkMode }) => {
     toast.success(`El ${name} fue copiado al portapapeles`, {
       style: {
         padding: "16px",
-        color: "#373a3c",
+        color: `${isDarkMode ? "white" : "#373a3c"}`,
+        backgroundColor: `${isDarkMode ? "#373a3c" : "white"}`,
       },
       iconTheme: {
-        primary: "#2780e3",
+        primary: `${isDarkMode ? "#102f5c" : "#336fd6"}`,
       },
       position: "top-right",
     });
@@ -27,7 +28,7 @@ const Contact = ({ isDarkMode }) => {
       id="contact"
       style={{ backgroundColor: `${isDarkMode ? "#102f5c" : "#336fd6"}` }}
     >
-      <h5>Contactame</h5>
+      <h5>Contacto</h5>
       <div className="container d-flex flex-wrap justify-content-center">
         {/* linkedin */}
         <div className="mx-3">
@@ -60,7 +61,7 @@ const Contact = ({ isDarkMode }) => {
               id="info"
               onClick={() => handlerNotification("email")}
             >
-              <CgMail size={25} /> lucasescudero5629@gmail.com{" "}
+              <CgMail size={30} /> lucasescudero5629@gmail.com
             </p>
           </CopyToClipboard>
         </div>
@@ -77,8 +78,11 @@ const Contact = ({ isDarkMode }) => {
           </CopyToClipboard>
         </div>
       </div>
-      <div className="border my-2"></div>
-      <p>Todos los derechos reservados lucasescudero</p>
+      <div
+        className="my-2"
+        style={{ border: `1px solid ${isDarkMode ? "white" : "#373a3c"}` }}
+      ></div>
+      <p>Copyright 2023. Lucas Escudero</p>
     </footer>
   );
 };

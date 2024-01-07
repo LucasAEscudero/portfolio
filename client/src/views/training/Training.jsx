@@ -2,7 +2,7 @@ import cv from "../../utils/CV - Escudero Lucas.pdf";
 
 import Fade from "react-awesome-reveal";
 
-const Curriculum = () => {
+const Training = () => {
   return (
     <div className="container-fluid py-3" id="curriculum">
       <div className="mt-4 mb-4">
@@ -28,4 +28,4 @@ const Curriculum = () => {
   );
 };
 
-export default Curriculum;
+export default Training;

@@ -1,66 +1,53 @@
 [
   {
-    "id": 1,
     "name": "HTML",
     "types": "frontend"
   },
   {
-    "id": 2,
     "name": "CSS",
     "types": "frontend"
   },
   {
-    "id": 3,
     "name": "JavaScript",
     "types": "frontend"
   },
   {
-    "id": 4,
     "name": "React",
     "types": "frontend"
   },
   {
-    "id": 4,
     "name": "Vite",
     "types": "frontend"
   },
   {
-    "id": 5,
     "name": "Redux",
     "types": "frontend"
   },
   {
-    "id": 6,
     "name": "JavaScript",
     "types": "backend"
   },
   {
-    "id": 7,
     "name": "NodeJS",
     "types": "backend"
   },
   {
-    "id": 8,
     "name": "Express",
     "types": "backend"
   },
   {
-    "id": 9,
     "name": "PostgreSQL",
     "types": "backend"
   },
   {
-    "id": 10,
     "name": "Sequelize",
     "types": "backend"
   },
   {
-    "id": 11,
     "name": "Git",
     "types": "devops"
   },
   {
-    "id": 12,
     "name": "Jira",
     "types": "devops"
   }

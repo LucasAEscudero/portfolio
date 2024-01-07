@@ -7,15 +7,18 @@ import Profile from "../profile/Profile";
 import Technologies from "../technologies/Technologies";
 import Projects from "../projects/Projects";
 import Contact from "../contact/Contact";
-import Curriculum from "../curriculum/Curriculum";
+import Training from "../training/Training";
 
 import "./Home.css";
 
 const Home = () => {
-  const [isDarkMode, setDarkMode] = useState(false);
+  const [isDarkMode, setDarkMode] = useState(
+    JSON.parse(localStorage.getItem("isDarkMode") || false)
+  );
 
   const toggleDarkMode = (checked) => {
     setDarkMode(checked);
+    localStorage.setItem("isDarkMode", JSON.stringify(checked));
   };
 
   return (
@@ -26,7 +29,7 @@ const Home = () => {
       <Nav isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
       <Profile isDarkMode={isDarkMode} />
       <div className="container">
-        <Curriculum />
+        <Training />
         <Technologies />
         <Projects />
       </div>
