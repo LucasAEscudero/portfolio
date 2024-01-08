@@ -1,28 +1,41 @@
 import cv from "../../utils/CV - Escudero Lucas.pdf";
+import training from "../../utils/training.json";
+
+import TrainingCard from "../../components/trainingCard/TrainingCard";
+
+import { PiCertificateLight } from "react-icons/pi";
 
 import Fade from "react-awesome-reveal";
 
 const Training = () => {
   return (
-    <div className="container-fluid py-3" id="curriculum">
-      <div className="mt-4 mb-4">
-        <Fade cascade triggerOnce>
-          <h2 className="fs-4">
-            Si estas interesado en mi perfil, no dudes en decargar mi CV desde
-            el siguiente boton!
-          </h2>
-          <div className="d-flex justify-content-center">
-            <a
-              href={cv}
-              download="CV - Escudero Lucas"
-              style={{ color: "transparent", backgroundColor: "transparent" }}
-            >
-              <button type="button" class="btn btn-outline-primary">
-                Descargue mi CV aqui!
-              </button>
-            </a>
-          </div>
-        </Fade>
+    <div className="container py-3" id="training">
+      <div className="row">
+        <h2>Formacion</h2>
+      </div>
+      <div className="row my-3 justify-content-center">
+        <div>
+          <a
+            href={cv}
+            target="_blank"
+            className="btn btn-primary"
+            role="button"
+            style={{ textDecoration: "none" }}
+          >
+            Ver curriculum
+          </a>
+        </div>
+      </div>
+      <div className="row m-0 p-0 justify-content-center gap-3">
+        {training?.map((formation) => (
+          <TrainingCard
+            title={formation.title}
+            academy={formation.academy}
+            description={formation.description}
+            certificate={formation.certificate}
+            date={formation.date}
+          />
+        ))}
       </div>
     </div>
   );

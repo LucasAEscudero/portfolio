@@ -50,6 +50,16 @@
     "var": "cer03",
     "resume": "App de posventa",
     "description": "Junto con un grupo de compañeros desarrollamos una aplicación web de posventa, con el propósito de simplificar el trabajo a los pequeños negocios de la gestión de ventas y productos, y potenciar aún más a las grandes empresas.",
+    "role": {
+      "text": "Como uno de los integrantes del proyecto me encargue de: ",
+      "types": [
+        "Crear el carrito de compras para las cuentas de vendedores.",
+        "Crear la dashboard para las cuentas de empresa (gráficos incluidos).",
+        "Realizar validaciones en tiempo real para gran parte de los formularios.",
+        "Crear el apartado para crear y editar reviews en las cuentas de empresa.",
+        "Realizar la protección de rutas dependiendo del tipo de usuario (si ingresaba como vendedor y empresa)"
+      ]
+    },
     "technologies": [
       "HTML",
       "CSS",

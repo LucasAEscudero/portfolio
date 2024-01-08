@@ -20,12 +20,13 @@ const Projects = () => {
               title={project?.title}
               varName={project?.var}
               description={project.description}
+              role={project?.role}
               technologies={project.technologies}
               youtube={project.links?.youtube}
               deploy={project.links?.deploy}
               github={project.links?.github}
               date={project.date}
-              collaborators={project.collaborators}
+              // collaborators={project.collaborators}
             />
           ))}
         </Fade>

@@ -31,11 +31,7 @@ const Nav = ({ isDarkMode, toggleDarkMode }) => {
         <div class="collapse navbar-collapse" id="navbarColor01">
           <ul className="navbar-nav me-auto">
             <NavItem key={"perfil"} name={"Perfil"} link={"#profile"} />
-            <NavItem
-              key={"curriculum"}
-              name={"Curriculum"}
-              link={"#curriculum"}
-            />
+            <NavItem key={"training"} name={"Formacion"} link={"#training"} />
             <NavItem
               key={"tecnologias"}
               name={"Tecnologias"}

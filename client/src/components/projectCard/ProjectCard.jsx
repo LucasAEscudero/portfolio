@@ -26,12 +26,13 @@ const ProjectCard = ({
   title,
   varName,
   description,
+  role,
   technologies,
   youtube,
   deploy,
   github,
   date,
-  collaborators,
+  // collaborators,
 }) => {
   const projectImages = {
     rickandmorty,
@@ -55,7 +56,7 @@ const ProjectCard = ({
   };
 
   return (
-    <div class="row card mb-3 rounded-3">
+    <div class="row card mb-3 rounded-3 m-0 p-0">
       <h3 class="card-header text-start">{title}</h3>
       <div className="container">
         {/* body */}
@@ -63,10 +64,24 @@ const ProjectCard = ({
           <img
             src={projectImages[varName]}
             alt={title}
-            className="col-md-12 col-xl-5"
+            className="col-md-12 col-xl-5 mx-auto"
             style={{ maxWidth: "400px", maxHeight: "300px" }}
           />
-          <p class="card-text col-md-12 col-xl-7">{description}</p>
+          <p class="card-text col-md-12 col-xl-7 text-xl-start text-md-center">
+            {description}
+            {role && (
+              <span className="text-start">
+                <br />
+                <br />
+                {role?.text}
+                <ul>
+                  {role?.types?.map((rol) => (
+                    <li>{rol}</li>
+                  ))}
+                </ul>
+              </span>
+            )}
+          </p>
         </div>
         <div className="border my-2"></div>
         {/* technologies */}
@@ -83,36 +98,36 @@ const ProjectCard = ({
           </div>
         </div>
         {/* date and links */}
-        <div className="container card-footer text-muted">
-          <div className="row">
-            <h5 className="col-md-12 col-xl-4 text-xl-start text-md-center">
-              {date}
-            </h5>
-            <div className="col-md-0 col-xl-5"></div>
-            <div className="col-md-12 col-xl-3">
-              <a href={github} class="card-link" target="_blank">
-                <button className="rounded-pill p-2">
-                  <IoLogoGithub size={30} /> GitHub
-                </button>
+        {/* <div class="card-footer text-muted">2 days ago</div> */}
+      </div>
+      <div className="container card-footer text-muted">
+        <div className="row">
+          <h5 className="col-md-12 col-xl-4 text-xl-start text-md-center">
+            {date}
+          </h5>
+          <div className="col-md-0 col-xl-5"></div>
+          <div className="col-md-12 col-xl-3">
+            <a href={github} class="card-link" target="_blank">
+              {/* <button className="rounded-pill p-2"> */}
+              <IoLogoGithub size={30} /> GitHub
+              {/* </button> */}
+            </a>
+            {deploy && (
+              <a href={deploy} class="card-link" target="_blank">
+                {/* <button className="rounded-pill p-2"> */}
+                <MdWeb size={30} /> Deploy
+                {/* </button> */}
               </a>
-              {deploy && (
-                <a href={deploy} class="card-link" target="_blank">
-                  <button className="rounded-pill p-2">
-                    <MdWeb size={30} /> Deploy
-                  </button>
-                </a>
-              )}
-              {youtube && (
-                <a href={youtube} class="card-link" target="_blank">
-                  <button className="rounded-pill p-2">
-                    <FaYoutube size={30} /> Youtube
-                  </button>
-                </a>
-              )}
-            </div>
+            )}
+            {youtube && (
+              <a href={youtube} class="card-link" target="_blank">
+                {/* <button className="rounded-pill p-2"> */}
+                <FaYoutube size={30} /> Youtube
+                {/* </button> */}
+              </a>
+            )}
           </div>
         </div>
-        {/* <div class="card-footer text-muted">2 days ago</div> */}
       </div>
     </div>
   );
