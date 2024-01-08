@@ -35,6 +35,17 @@ const Technologies = () => {
             )}
           />
         </div>
+        <div className="border my-3"></div>
+        {technologies.find((tech) => tech.types === "learning") && (
+          <div className="row d-flex flex-wrap justify-content-center mt-2">
+            <h3>¿Que estoy aprendiendo?</h3>
+            <TechCards
+              technologies={technologies.filter(
+                (tech) => tech.types === "learning"
+              )}
+            />
+          </div>
+        )}
       </div>
     </div>
   );

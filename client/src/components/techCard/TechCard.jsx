@@ -5,8 +5,8 @@ const TechCard = ({ name, icon }) => {
         src={icon}
         alt={name}
         style={{
-          minWidth: "100px",
-          maxHeight: "100px",
+          minWidth: "75px",
+          maxHeight: "75px",
         }}
       />
       <h4>{name}</h4>
