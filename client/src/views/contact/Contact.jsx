@@ -80,9 +80,9 @@ const Contact = ({ isDarkMode }) => {
       </div>
       <div
         className="my-2"
-        style={{ border: `1px solid ${isDarkMode ? "white" : "#373a3c"}` }}
+        style={{ borderTop: `1px solid ${isDarkMode ? "white" : "#373a3c"}` }}
       ></div>
-      <p>Copyright 2023. Lucas Escudero</p>
+      <p>© Copyright 2024. Lucas Escudero</p>
     </footer>
   );
 };

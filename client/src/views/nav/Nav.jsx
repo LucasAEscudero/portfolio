@@ -11,7 +11,7 @@ const Nav = ({ isDarkMode, toggleDarkMode }) => {
       class="navbar navbar-expand-lg w-100 border-buttom-primary"
       data-bs-theme="dark"
       id="navBar"
-      style={{ backgroundColor: `${isDarkMode ? "#102f5c" : "#336fd6"}` }}
+      // style={{ backgroundColor: `${isDarkMode ? "#102f5c" : "#336fd6"}` }}
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">

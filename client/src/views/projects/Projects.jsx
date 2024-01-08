@@ -4,8 +4,6 @@ import { IoLogoGithub } from "react-icons/io";
 import projects from "../../utils/projects.json";
 import ProjectCard from "../../components/projectCard/ProjectCard";
 
-import styles from "./Projects.module.css";
-
 const Projects = () => {
   return (
     <div className="container py-3" id="projects">
@@ -26,7 +24,6 @@ const Projects = () => {
               deploy={project.links?.deploy}
               github={project.links?.github}
               date={project.date}
-              // collaborators={project.collaborators}
             />
           ))}
         </Fade>

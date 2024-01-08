@@ -66,3 +66,41 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* my styles */
+:root {
+  /* template */
+  --base-color: #fff;
+  --base-shading-color: #f8f9f9;
+  --border: #393939;
+  --text: #393939;
+
+  /* spa */
+  --background-color: #3575dd;
+  --background-shading-color: #2f68c4;
+
+  --link-hover: #747bff;
+
+  /* --third-color: #41acf9;
+  --fourth-color: #60727f;
+  --fifth-color: #d9dada; */
+}
+
+[data-theme="dark"] {
+  /* --background-global-color: #212121;
+  --background-primary-color: #102f5c;
+  --background-secondary-color: #1a365d;
+  --text-primary-color: #fff;
+  --text-secondary-color: #373a3c;
+  --link-color: #646cff; */
+  --base-color: #000;
+  --base-shading-color: #393939;
+  --border: #fff;
+  --text: #fff;
+
+  /* spa */
+  --background-color: #102f5c;
+  --background-shading-color: #0c2549;
+
+  --link-hover: #747bff;
+}

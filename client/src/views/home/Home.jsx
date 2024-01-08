@@ -22,13 +22,10 @@ const Home = () => {
   };
 
   return (
-    <div
-      className={`${isDarkMode ? "bg-dark text-white" : ""}`}
-      data-theme={isDarkMode}
-    >
+    <div data-theme={isDarkMode ? "dark" : "light"} id="home">
       <Nav isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
       <Profile isDarkMode={isDarkMode} />
-      <div className="container">
+      <div className="container" id="information">
         <Training />
         <Technologies />
         <Projects />

@@ -1,0 +1,9 @@
+#cvButton {
+  background-color: var(--background-color);
+  color: var(--text);
+}
+
+#cvButton:hover {
+  color: var(--link-hover);
+  border: 1px solid var(--link-hover);
+}

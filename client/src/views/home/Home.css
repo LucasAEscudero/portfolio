@@ -1,8 +1,4 @@
-/* [data-theme="false"] {
-  --backgound-color: "#fff";
-  --primary-text-color: "#373a3c";
-  --secondary-text-color: "#000";
+#home {
+  background-color: var(--base-color);
+  color: var(--text);
 }
-
-[data-theme="true"] {
-} */

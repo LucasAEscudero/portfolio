@@ -3,13 +3,17 @@ import training from "../../utils/training.json";
 
 import TrainingCard from "../../components/trainingCard/TrainingCard";
 
-import { PiCertificateLight } from "react-icons/pi";
-
 import Fade from "react-awesome-reveal";
+
+import "./Training.css";
 
 const Training = () => {
   return (
-    <div className="container py-3" id="training">
+    <div
+      className="container py-3"
+      id="training"
+      // style={{ backgroundColor: "var(--background-primary-color)" }}
+    >
       <div className="row">
         <h2>Formacion</h2>
       </div>
@@ -18,9 +22,9 @@ const Training = () => {
           <a
             href={cv}
             target="_blank"
-            className="btn btn-primary"
+            className="btn rounded-3"
             role="button"
-            style={{ textDecoration: "none" }}
+            id="cvButton"
           >
             Ver curriculum
           </a>
