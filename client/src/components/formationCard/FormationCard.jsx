@@ -4,10 +4,7 @@ import "./FormationCard.css";
 
 const FormationCard = ({ title, academy, description, certificate, date }) => {
   return (
-    <div
-      className="card rounded-3 m-0 p-0 col-md-12 col-xl-4"
-      id="formation-card"
-    >
+    <div className="card rounded-3 m-0 p-0" id="formation-card">
       <div className="card-header rounded-top-3" id="formation-header">
         {academy}
       </div>

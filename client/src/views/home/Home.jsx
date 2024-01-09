@@ -13,12 +13,12 @@ import "./Home.css";
 
 const Home = () => {
   const [isDarkMode, setDarkMode] = useState(
-    JSON.parse(localStorage.getItem("isDarkMode") || false)
+    JSON.parse(localStorage.getItem("portfolioIsDarkMode") || false)
   );
 
   const toggleDarkMode = (checked) => {
     setDarkMode(checked);
-    localStorage.setItem("isDarkMode", JSON.stringify(checked));
+    localStorage.setItem("portfolioIsDarkMode", JSON.stringify(checked));
   };
 
   return (

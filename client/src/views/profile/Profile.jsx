@@ -30,10 +30,11 @@ const Profile = () => {
             <p className="fs-5">
               Mi conjunto de habilidades incluye un fuerte{" "}
               <strong>pensamiento analítico, disciplina y dedicación</strong>,
-              respaldados por una gran capacidad para analizar y resolver
-              problemas. Además, mi habilidad para{" "}
-              <strong>trabajar en equipo</strong> complementa mi enfoque
-              proactivo para alcanzar objetivos de manera colaborativa.
+              respaldados por una{" "}
+              <strong>gran capacidad para analizar y resolver problemas</strong>
+              . Además, mi habilidad para <strong>trabajar en equipo</strong>{" "}
+              complementa mi enfoque proactivo para alcanzar objetivos de manera
+              colaborativa.
             </p>
             {/* texto breve */}
             {/* <p className="fs-5">

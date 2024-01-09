@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 
-import NavItem from "../../components/navItem/NavItem";
-
 import "./Nav.css";
 
 const Nav = ({ isDarkMode, toggleDarkMode }) => {

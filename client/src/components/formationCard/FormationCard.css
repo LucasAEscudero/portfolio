@@ -1,5 +1,4 @@
 #formation-card {
-  /* background-color: var(--background-color); */
   background-color: var(--background-color);
   color: var(--text);
   /* border: 1px solid var(--border); */
@@ -15,7 +14,5 @@
 
 #formation-header,
 #formation-footer {
-  /* background-color: var(--background-color); */
-  /* background-color: #011428; */
   background-color: var(--background-shading-color);
 }
