@@ -1,4 +1,4 @@
-import { Fade } from "react-awesome-reveal";
+// import { Fade } from "react-awesome-reveal";
 import { Toaster } from "react-hot-toast";
 import { useState } from "react";
 

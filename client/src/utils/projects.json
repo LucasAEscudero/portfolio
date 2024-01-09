@@ -26,7 +26,7 @@
     "title": "Videogames",
     "var": "videogames",
     "resume": "App usando la API de Rawg",
-    "description": "Desarrolle una aplicación web que renderiza videojuegos en tarjetas de la API de RAGW (API de videojuegos) con un paginado de 15 videojuegos (cada uno con sus respectivos detalles) por pagina + filtros y ordenamientos, en la cual se puede buscar (15 primeros resultados) y crear un videojuego como tal a través de un formulario con validaciones en javascript. ",
+    "description": "Desarrolle una aplicación web que renderiza videojuegos en tarjetas de la API de RAGW (API de videojuegos) con un paginado de 15 videojuegos (cada uno con sus respectivos detalles) por pagina + filtros y ordenamientos, en la cual se puede buscar (15 primeros resultados) y crear un videojuego como tal a través de un formulario con validaciones en javascript.",
     "technologies": [
       "HTML",
       "CSS",
@@ -57,7 +57,7 @@
         "Crear la dashboard para las cuentas de empresa (gráficos incluidos).",
         "Realizar validaciones en tiempo real para gran parte de los formularios.",
         "Crear el apartado para crear y editar reviews en las cuentas de empresa.",
-        "Realizar la protección de rutas dependiendo del tipo de usuario (si ingresaba como vendedor y empresa)"
+        "Realizar la protección de rutas dependiendo del tipo de usuario (si ingresaba como vendedor y empresa)."
       ]
     },
     "technologies": [
