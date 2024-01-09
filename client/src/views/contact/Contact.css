@@ -1,3 +1,12 @@
-#info:hover {
+#contact {
+  background-color: var(--background-shading-color);
+}
+
+#contact-text {
+  color: var(--text);
+}
+
+#contact-text:hover {
+  color: var(--link-hover);
   cursor: pointer;
 }

@@ -87,7 +87,6 @@ const ProjectCard = ({
             )}
           </p>
         </div>
-        {/* <div className="border my-2"></div> */}
         {/* technologies */}
         <div>
           <h5>Tecnologias utilizadas: </h5>
@@ -102,7 +101,6 @@ const ProjectCard = ({
           </div>
         </div>
         {/* date and links */}
-        {/* <div class="card-footer text-muted">2 days ago</div> */}
       </div>
       <div className="container card-footer text-muted p-0 m-0">
         <div className="row rounded-bottom-3 py-2 m-0" id="project-footer">

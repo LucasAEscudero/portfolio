@@ -6,48 +6,73 @@ import NavItem from "../../components/navItem/NavItem";
 import "./Nav.css";
 
 const Nav = ({ isDarkMode, toggleDarkMode }) => {
+  const [collapse, setCollapse] = useState(false);
+
+  const toggleCollapse = () => setCollapse(!collapse);
+
   return (
-    <nav
-      class="navbar navbar-expand-lg w-100 border-buttom-primary"
-      data-bs-theme="dark"
-      id="navBar"
-      // style={{ backgroundColor: `${isDarkMode ? "#102f5c" : "#336fd6"}` }}
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+    <nav className="navbar navbar-expand-lg" id="navBar">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#" id="nav-text">
           Lucas Escudero
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarColor01"
-          aria-controls="navbarColor01"
-          aria-expanded="false"
+          data-toggle="collapse"
+          data-target="#menu"
+          aria-controls="menu"
+          aria-expanded="true"
           aria-label="Toggle navigation"
+          onClick={toggleCollapse}
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarColor01">
+        <div
+          className={
+            collapse
+              ? "navbar-collapse collapse show"
+              : "navbar-collapse collapse"
+          }
+          id="menu"
+        >
           <ul className="navbar-nav me-auto">
-            <NavItem key={"perfil"} name={"Perfil"} link={"#profile"} />
-            <NavItem key={"training"} name={"Formacion"} link={"#training"} />
-            <NavItem
-              key={"tecnologias"}
-              name={"Tecnologias"}
-              link={"#technologies"}
-            />
-            <NavItem key={"proyectos"} name={"Proyectos"} link={"#projects"} />
-            <NavItem key={"contacto"} name={"Contacto"} link={"#contact"} />
+            <li className="nav-item">
+              <a className="nav-link active" href="#profile" id="nav-text">
+                Perfil
+                <span className="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#formation" id="nav-text">
+                Formacion
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#technologies" id="nav-text">
+                Tecnologias
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#projects" id="nav-text">
+                Proyectos
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#contact" id="nav-text">
+                Contacto
+              </a>
+            </li>
           </ul>
-          <div>
-            <DarkModeSwitch
-              checked={isDarkMode}
-              onChange={toggleDarkMode}
-              sunColor="white"
-              // size={120}
-            />
-          </div>
+          <ul className="navbar-nav ms-auto">
+            <li>
+              <DarkModeSwitch
+                checked={isDarkMode}
+                onChange={toggleDarkMode}
+                sunColor="#fff"
+              />
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

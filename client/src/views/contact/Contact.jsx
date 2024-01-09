@@ -1,33 +1,31 @@
-import { FaLinkedin } from "react-icons/fa";
-import { IoLogoGithub } from "react-icons/io";
-import { CgMail } from "react-icons/cg";
-import { BsFillTelephoneFill } from "react-icons/bs";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { toast } from "react-hot-toast";
-import { FaCopy } from "react-icons/fa";
+
+import { FaLinkedin } from "react-icons/fa";
+import { IoLogoGithub } from "react-icons/io";
+// import { FaRegCopy } from "react-icons/fa";
+import { CgMail } from "react-icons/cg";
+import { BsFillTelephoneFill } from "react-icons/bs";
+
 import "./Contact.css";
 
-const Contact = ({ isDarkMode }) => {
+const Contact = () => {
   const handlerNotification = (name) => {
     toast.success(`El ${name} fue copiado al portapapeles`, {
       style: {
         padding: "16px",
-        color: `${isDarkMode ? "white" : "#373a3c"}`,
-        backgroundColor: `${isDarkMode ? "#373a3c" : "white"}`,
+        color: "var(--text)",
+        backgroundColor: "var(--base-color)",
       },
       iconTheme: {
-        primary: `${isDarkMode ? "#102f5c" : "#336fd6"}`,
+        primary: "var(--background-color)",
       },
       position: "top-right",
     });
   };
 
   return (
-    <footer
-      className="container-fluid py-3"
-      id="contact"
-      style={{ backgroundColor: `${isDarkMode ? "#102f5c" : "#336fd6"}` }}
-    >
+    <footer className="container-fluid py-3" id="contact">
       <h5>Contacto</h5>
       <div className="container d-flex flex-wrap justify-content-center">
         {/* linkedin */}
@@ -35,8 +33,8 @@ const Contact = ({ isDarkMode }) => {
           <p>
             <a
               href="https://www.linkedin.com/in/lucas-escudero-54195322b/"
-              style={{ color: `${isDarkMode ? "white" : "#373a3c"}` }}
               target="_blank"
+              id="contact-text"
             >
               <FaLinkedin size={30} /> LinkedIn
             </a>
@@ -47,8 +45,8 @@ const Contact = ({ isDarkMode }) => {
           <p>
             <a
               href="https://github.com/LucasAEscudero"
-              style={{ color: `${isDarkMode ? "white" : "#373a3c"}` }}
               target="_blank"
+              id="contact-text"
             >
               <IoLogoGithub size={30} /> GitHub
             </a>
@@ -58,10 +56,11 @@ const Contact = ({ isDarkMode }) => {
           <CopyToClipboard text="lucasescudero5629@gmail.com">
             <p
               className="mb-0 d-inline"
-              id="info"
               onClick={() => handlerNotification("email")}
+              id="contact-text"
             >
-              <CgMail size={30} /> lucasescudero5629@gmail.com
+              <CgMail size={30} /> lucasescudero5629@gmail.com{" "}
+              {/* <FaRegCopy size={20} /> */}
             </p>
           </CopyToClipboard>
         </div>
@@ -70,17 +69,18 @@ const Contact = ({ isDarkMode }) => {
           <CopyToClipboard text="+54 11 5512-8046">
             <p
               className="mb-0 d-inline"
-              id="info"
               onClick={() => handlerNotification("número de teléfono")}
+              id="contact-text"
             >
-              <BsFillTelephoneFill size={20} /> +54 11 5512-8046
+              <BsFillTelephoneFill size={20} /> +54 11 5512-8046{" "}
+              {/* <FaRegCopy size={20} /> */}
             </p>
           </CopyToClipboard>
         </div>
       </div>
       <div
         className="my-2"
-        style={{ borderTop: `1px solid ${isDarkMode ? "white" : "#373a3c"}` }}
+        style={{ borderTop: `1px solid var(--border)` }}
       ></div>
       <p>© Copyright 2024. Lucas Escudero</p>
     </footer>

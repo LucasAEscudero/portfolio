@@ -2,6 +2,8 @@ import TechCards from "../../components/techCards/TechCards";
 
 import technologies from "../../utils/technologies.json";
 
+import "./Technologies.css";
+
 const Technologies = () => {
   return (
     <div className="container py-3 my-2" id="technologies">

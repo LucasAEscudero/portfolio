@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div className="container py-3" id="projects">
       <div className="row">
-        <h2>Proyectos</h2>
+        <h2 style={{ color: "var(--text-antiBackground)" }}>Proyectos</h2>
       </div>
       <div className="row">
         <Fade className="" cascade triggerOnce>

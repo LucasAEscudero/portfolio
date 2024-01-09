@@ -1,21 +1,21 @@
 import cv from "../../utils/CV - Escudero Lucas.pdf";
 import training from "../../utils/training.json";
 
-import TrainingCard from "../../components/trainingCard/TrainingCard";
+import FormationCard from "../../components/formationCard/FormationCard";
 
 import Fade from "react-awesome-reveal";
 
-import "./Training.css";
+import "./Formation.css";
 
-const Training = () => {
+const Formation = () => {
   return (
     <div
       className="container py-3"
-      id="training"
+      id="formation"
       // style={{ backgroundColor: "var(--background-primary-color)" }}
     >
       <div className="row">
-        <h2>Formacion</h2>
+        <h2 style={{ color: "var(--text-antiBackground)" }}>Formacion</h2>
       </div>
       <div className="row my-3 justify-content-center">
         <div>
@@ -32,7 +32,7 @@ const Training = () => {
       </div>
       <div className="row m-0 p-0 justify-content-center gap-3">
         {training?.map((formation) => (
-          <TrainingCard
+          <FormationCard
             title={formation.title}
             academy={formation.academy}
             description={formation.description}
@@ -45,4 +45,4 @@ const Training = () => {
   );
 };
 
-export default Training;
+export default Formation;

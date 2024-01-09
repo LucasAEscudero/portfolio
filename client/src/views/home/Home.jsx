@@ -7,7 +7,7 @@ import Profile from "../profile/Profile";
 import Technologies from "../technologies/Technologies";
 import Projects from "../projects/Projects";
 import Contact from "../contact/Contact";
-import Training from "../training/Training";
+import Formation from "../formation/Formation";
 
 import "./Home.css";
 
@@ -24,9 +24,9 @@ const Home = () => {
   return (
     <div data-theme={isDarkMode ? "dark" : "light"} id="home">
       <Nav isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
-      <Profile isDarkMode={isDarkMode} />
+      <Profile />
       <div className="container" id="information">
-        <Training />
+        <Formation />
         <Technologies />
         <Projects />
       </div>

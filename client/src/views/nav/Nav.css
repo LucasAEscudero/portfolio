@@ -4,3 +4,7 @@
   top: 0;
   background-color: var(--background-shading-color);
 }
+
+#nav-text {
+  color: var(--text);
+}

@@ -1,8 +1,8 @@
 import { PiCertificateLight } from "react-icons/pi";
 
-import "./TrainingCard.css";
+import "./FormationCard.css";
 
-const TrainingCard = ({ title, academy, description, certificate, date }) => {
+const FormationCard = ({ title, academy, description, certificate, date }) => {
   return (
     <div
       className="card rounded-3 m-0 p-0 col-md-12 col-xl-4"
@@ -30,4 +30,4 @@ const TrainingCard = ({ title, academy, description, certificate, date }) => {
   );
 };
 
-export default TrainingCard;
+export default FormationCard;

@@ -1,41 +1,47 @@
 import face from "../../assets/Portfolio-Profile.jpg";
 import Fade from "react-awesome-reveal";
 
-const Profile = ({ isDarkMode }) => {
+import "./Profile.css";
+
+const Profile = () => {
   return (
-    <div
-      className={`container-fluid py-3 w-100`}
-      id="profile"
-      style={{ backgroundColor: `${!isDarkMode ? "#3b82f6" : "#1a365d"}` }}
-    >
+    <div className={`container-fluid py-3 w-100`} id="profile">
       <div className="row">
-        <div className="col-4">
+        <div className="col-md-12 col-xl-4">
           <Fade triggerOnce>
             <img
-              className="w-100 rounded-circle"
+              className="rounded-circle"
               src={face}
               alt="Profile photo"
+              style={{ maxWidth: "300px" }}
             />
           </Fade>
         </div>
-        <div className="col-8 d-flex flex-column align-items-start justify-content-center">
-          <Fade cascade triggerOnce>
-            <h1>Lucas Escudero</h1>
-            <p className="text-start fs-5">
-              Soy un Desarrollador Web FullStack en constante crecimiento y
-              estudiante del primer año de la carrera de Ingeniería en
-              Informática.
+        <div className="col-md-12 col-xl-8 containter d-flex flex-column justify-content-center">
+          <Fade cascade triggerOnce className="text-md-center text-xl-start">
+            <h1>Lucas Agustin Escudero</h1>
+            {/* texto largo */}
+            <p className="fs-5">
+              Soy un <strong>Desarrollador Web FullStack</strong> en constante
+              crecimiento, comprometido con la innovación y preparado para
+              abordar nuevos desafíos. Mi enfoque se basa en ofrecer soluciones
+              web modernas y eficientes.
             </p>
-            <p className="text-start fs-5">
-              Mi enfoque se centra en la mejora continua, por lo que actualmente
-              me encuentro explorando tecnologías como Typescript, Bootstrap y
-              MongoDB.
+            <p className="fs-5">
+              Mi conjunto de habilidades incluye un fuerte{" "}
+              <strong>pensamiento analítico, disciplina y dedicación</strong>,
+              respaldados por una gran capacidad para analizar y resolver
+              problemas. Además, mi habilidad para{" "}
+              <strong>trabajar en equipo</strong> complementa mi enfoque
+              proactivo para alcanzar objetivos de manera colaborativa.
             </p>
-            <p className="text-start fs-5">
-              Estoy totalmente comprometido con la innovación, estoy listo para
-              enfrentar nuevos desafíos y ofrecer soluciones web modernas y
+            {/* texto breve */}
+            {/* <p className="fs-5">
+              Soy un Desarrollador Web FullStack en constante crecimiento,
+              comprometido con la innovación y preparado para abordar nuevos
+              desafíos, con el enfoque de ofrecer soluciones web modernas y
               eficientes.
-            </p>
+            </p> */}
           </Fade>
         </div>
       </div>
