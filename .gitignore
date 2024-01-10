@@ -1,2 +1,7 @@
+# api ignore
+/api/node_modules
+/api/.env
+
 # client ignore
+/client/node_modules
 /client/dist
