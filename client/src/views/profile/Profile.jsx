@@ -1,5 +1,7 @@
-import face from "../../assets/Portfolio-Profile.jpg";
+// import face from "../../assets/Portfolio-Profile.jpg";
+// import face from "https://drive.google.com/file/d/1sPFoqOscBKk5iJjovdYSuUvg7qjXnfFO/view?usp=sharing";
 import Fade from "react-awesome-reveal";
+// console.log(face);
 
 import "./Profile.css";
 
@@ -11,7 +13,7 @@ const Profile = () => {
           <Fade triggerOnce>
             <img
               className="rounded-circle"
-              src={face}
+              src="https://drive.google.com/uc?export=view&id=1sPFoqOscBKk5iJjovdYSuUvg7qjXnfFO&rl"
               alt="Profile photo"
               style={{ maxWidth: "300px" }}
             />
