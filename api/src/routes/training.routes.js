@@ -1,6 +1,8 @@
 const { Router } = require("express");
 const trainingRouter = Router();
 
-trainingRouter.get("/");
+const { getHandlerTraining } = require("../handlers/training.handler");
+
+trainingRouter.get("/", getHandlerTraining);
 
 module.exports = trainingRouter;
