@@ -1,0 +1,92 @@
+[
+  {
+    "name": "HTML",
+    "type": "frontend",
+    "image": "https://drive.google.com/uc?export=view&id=1ysrfUF2BGiepc2e4sAx_9S9QTtiPZrhg"
+  },
+  {
+    "name": "CSS",
+    "type": "frontend",
+    "image": "https://drive.google.com/uc?export=view&id=1WBPqPhS6pu_SU7V9OW2X2a1a2HJCHVYo"
+  },
+  {
+    "name": "Bootstrap",
+    "type": "frontend",
+    "image": "https://drive.google.com/uc?export=view&id=1_XrEbLBAyWXQ4uq61bR7KYZXtckv-Yow"
+  },
+  {
+    "name": "JS",
+    "type": "frontend",
+    "image": "https://drive.google.com/uc?export=view&id=12ygWa1NYAzQV8YK2GZu2geG5syGca-3p"
+  },
+  {
+    "name": "React",
+    "type": "frontend",
+    "image": "https://drive.google.com/uc?export=view&id=1AQ_aGsIzxbUYslR1FA6qCui9owHTpImW"
+  },
+  {
+    "name": "Vite",
+    "type": "frontend",
+    "image": "https://es.vitejs.dev/logo.svg"
+  },
+  {
+    "name": "Redux",
+    "type": "frontend",
+    "image": "https://drive.google.com/uc?export=view&id=1IUSYmaPvMFn11Dust13ut2hCy18On5N2"
+  },
+  {
+    "name": "JS",
+    "type": "backend",
+    "image": "https://drive.google.com/uc?export=view&id=12ygWa1NYAzQV8YK2GZu2geG5syGca-3p"
+  },
+  {
+    "name": "NodeJS",
+    "type": "backend",
+    "image": "https://drive.google.com/uc?export=view&id=15nxXzUxU_A8b-W9bznDcW75QAPdSNvhS"
+  },
+  {
+    "name": "Express",
+    "type": "backend",
+    "image": "https://drive.google.com/uc?export=view&id=1WIwwNln80i55LPvmmVpfX11Y6mAw_VA3"
+  },
+  {
+    "name": "PostgreSQL",
+    "type": "backend",
+    "image": "https://drive.google.com/uc?export=view&id=1vFzC39gg3CkaHYDNSgB-XsqFJ4fWlkPl"
+  },
+  {
+    "name": "Sequelize",
+    "type": "backend",
+    "image": "https://drive.google.com/uc?export=view&id=18fxuwDXmzpHsa6BSpIaGKZet2Kgh_wWp"
+  },
+  {
+    "name": "Git",
+    "type": "devops",
+    "image": "https://drive.google.com/uc?export=view&id=1FLci8yPPbLESjvw5XB1OHgk0MU5NpHOY"
+  },
+  {
+    "name": "Jira",
+    "type": "devops",
+    "image": "https://drive.google.com/uc?export=view&id=146I0VXCRZ-5nPXrVerRc27o5X1sRnYBG"
+  },
+  {
+    "name": "VSC",
+    "type": "devops",
+    "image": "https://drive.google.com/uc?export=view&id=1bbkBmKyf1rFIM7DHOfapZ5LzHoaNK2Uw"
+  },
+  {
+    "name": "Bootstrap",
+    "type": "learning",
+    "image": "https://drive.google.com/uc?export=view&id=1_XrEbLBAyWXQ4uq61bR7KYZXtckv-Yow"
+  },
+  {
+    "name": "Typescript",
+    "type": "learning",
+    "image": "https://drive.google.com/uc?export=view&id=1QBA4J-cXDZbH70wml4HEP3zgRmpvKw9d"
+  },
+  {
+    "name": "MongoDB",
+    "type": "learning",
+    "image": "https://drive.google.com/uc?export=view&id=1yulyuydCVQSLrzWSKQkCFGh_A8afCmNL"
+  }
+]
