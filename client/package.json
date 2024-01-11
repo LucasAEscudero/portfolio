@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@originjs/vite-plugin-require-context": "^1.0.9",
+    "axios": "^1.6.5",
     "bootswatch": "^5.3.2",
     "react": "^18.2.0",
     "react-awesome-reveal": "^4.2.7",
@@ -18,9 +19,12 @@
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.12.0",
+    "react-redux": "^9.0.4",
     "react-router": "^6.21.1",
     "react-router-dom": "^6.21.0",
-    "react-toggle-dark-mode": "^1.1.1"
+    "react-toggle-dark-mode": "^1.1.1",
+    "redux": "^5.0.1",
+    "redux-thunk": "2.4.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
