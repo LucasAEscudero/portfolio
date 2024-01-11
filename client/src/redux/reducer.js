@@ -5,9 +5,9 @@ import {
 } from "./actions/action-types";
 
 const initialState = {
-  // technologies: [],
-  // projects: [],
-  // training: [],
+  technologies: [],
+  projects: [],
+  training: [],
 };
 
 function reducer(state = initialState, action) {
