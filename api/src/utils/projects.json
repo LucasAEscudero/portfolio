@@ -19,7 +19,7 @@
       "github": "https://github.com/LucasAEscudero/RaM_Proyect",
       "youtube": "https://www.youtube.com/watch?v=zRdht6-k8bE"
     },
-    "image": "https://drive.google.com/uc?export=view&id=1Sq358ubMHZCxDPzJPwr4S8x7K9CNx2ch",
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019678/RickandMorty_g26l6q.jpg",
     "collaborators": false,
     "date": "Ago. 2023 - Oct. 2023"
   },
@@ -43,7 +43,7 @@
       "github": "https://github.com/LucasAEscudero/Videogames_Proyect",
       "deploy": "https://videogamesfront-production-f967.up.railway.app/"
     },
-    "image": "https://drive.google.com/uc?export=view&id=1G11fcglzC_EXpFi82t2iBTNPpmu1j_Jb",
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019679/Videogames_c6wnd6.png",
     "collaborators": false,
     "date": "Oct. 2023 -Nov. 2023"
   },
@@ -77,7 +77,7 @@
       "github": "https://github.com/MorasDeFresa/Cer03",
       "deploy": "https://cer03.vercel.app/"
     },
-    "image": "https://drive.google.com/uc?export=view&id=1q30TBrxkYuNa1iW_VRC4hpX5XLdGrF_J",
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019677/Cer03_up18x9.jpg",
     "collaborators": true,
     "date": "Nov. 2023 - Dic. 2023"
   }

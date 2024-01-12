@@ -58,6 +58,7 @@ const Contact = () => {
               className="mb-0 d-inline"
               onClick={() => handlerNotification("email")}
               id="contact-text"
+              title="Copiar"
             >
               <CgMail size={30} /> lucasescudero5629@gmail.com{" "}
               {/* <FaRegCopy size={20} /> */}
@@ -71,6 +72,7 @@ const Contact = () => {
               className="mb-0 d-inline"
               onClick={() => handlerNotification("número de teléfono")}
               id="contact-text"
+              title="Copiar"
             >
               <BsFillTelephoneFill size={20} /> +54 11 5512-8046{" "}
               {/* <FaRegCopy size={20} /> */}

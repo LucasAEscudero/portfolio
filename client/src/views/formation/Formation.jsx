@@ -1,5 +1,6 @@
 import cv from "../../utils/CV - Escudero Lucas.pdf";
-import training from "../../utils/training.json";
+// import training from "../../utils/training.json";
+import { useSelector } from "react-redux";
 
 import FormationCard from "../../components/formationCard/FormationCard";
 
@@ -8,6 +9,8 @@ import Fade from "react-awesome-reveal";
 import "./Formation.css";
 
 const Formation = () => {
+  const { training } = useSelector((state) => state);
+
   return (
     <div className="container py-3" id="formation">
       <div className="row">

@@ -6,6 +6,7 @@ const projectsSchema = new Schema(
     varName: String,
     resume: String,
     description: String,
+    role: { text: String, types: Array },
     technologies: Array,
     links: { github: String, youtube: String, deploy: String },
     date: String,

@@ -1,8 +1,8 @@
-const TechCard = ({ name, icon }) => {
+const TechCard = ({ name, image }) => {
   return (
     <div className="d-flex flex-column align-items-center mx-3">
       <img
-        src={icon}
+        src={image}
         alt={name}
         style={{
           minWidth: "75px",

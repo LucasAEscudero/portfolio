@@ -13,7 +13,7 @@ const Profile = () => {
           <Fade triggerOnce>
             <img
               className="rounded-circle"
-              src="https://drive.google.com/uc?export=view&id=1sPFoqOscBKk5iJjovdYSuUvg7qjXnfFO&rl"
+              src="https://res.cloudinary.com/dub4acwkh/image/upload/v1705019505/Portfolio-Profile_yok9rx.jpg"
               alt="Profile photo"
               style={{ maxWidth: "300px" }}
             />
@@ -30,13 +30,11 @@ const Profile = () => {
               web modernas y eficientes.
             </p>
             <p className="fs-5">
-              Mi conjunto de habilidades incluye un fuerte{" "}
-              <strong>pensamiento analítico, disciplina y dedicación</strong>,
-              respaldados por una{" "}
-              <strong>gran capacidad para analizar y resolver problemas</strong>
-              . Además, mi habilidad para <strong>trabajar en equipo</strong>{" "}
-              complementa mi enfoque proactivo para alcanzar objetivos de manera
-              colaborativa.
+              Mi conjunto de habilidades incluye un fuerte pensamiento
+              analítico, disciplina y dedicación, respaldados por una gran
+              capacidad para analizar y resolver problemas. Además, mi habilidad
+              para trabajar en equipo complementa mi enfoque proactivo para
+              alcanzar objetivos de manera colaborativa.
             </p>
             {/* texto breve */}
             {/* <p className="fs-5">

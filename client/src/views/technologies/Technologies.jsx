@@ -1,10 +1,12 @@
 import TechCards from "../../components/techCards/TechCards";
-
-import technologies from "../../utils/technologies.json";
+// import technologies from "../../utils/technologies.json";
+import { useSelector } from "react-redux";
 
 import "./Technologies.css";
 
 const Technologies = () => {
+  const { technologies } = useSelector((state) => state);
+
   return (
     <div className="container py-3 my-2" id="technologies">
       <h2 className="fs-2">Tecnologias</h2>
@@ -14,7 +16,7 @@ const Technologies = () => {
           <h3>Frontend</h3>
           <TechCards
             technologies={technologies.filter(
-              (tech) => tech.types === "frontend"
+              (tech) => tech?.type === "frontend"
             )}
           />
         </div>
@@ -24,7 +26,7 @@ const Technologies = () => {
           <h3>Backend</h3>
           <TechCards
             technologies={technologies.filter(
-              (tech) => tech.types === "backend"
+              (tech) => tech.type === "backend"
             )}
           />
         </div>
@@ -32,18 +34,18 @@ const Technologies = () => {
         <div className="row d-flex flex-wrap justify-content-center mt-2">
           <h3>DevOps</h3>
           <TechCards
-            technologies={technologies.filter(
-              (tech) => tech.types === "devops"
-            )}
+            technologies={technologies.filter((tech) => tech.type === "devops")}
           />
         </div>
-        <div className="border my-3"></div>
-        {technologies.find((tech) => tech.types === "learning") && (
+        {technologies.find((tech) => tech.type === "learning") && (
+          <div className="border my-3"></div>
+        )}
+        {technologies.find((tech) => tech.type === "learning") && (
           <div className="row d-flex flex-wrap justify-content-center mt-2">
             <h3>¿Que estoy aprendiendo?</h3>
             <TechCards
               technologies={technologies.filter(
-                (tech) => tech.types === "learning"
+                (tech) => tech.type === "learning"
               )}
             />
           </div>

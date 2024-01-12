@@ -9,7 +9,7 @@ router.use("/technologies", technoRouter);
 router.use("/projects", projectsRouter);
 router.use("/training", trainingRouter);
 
-// const dbRouter = require("./database.routes");
-// router.use("/database", dbRouter);
+const dbRouter = require("./database.routes");
+router.use("/database", dbRouter);
 
 module.exports = router;

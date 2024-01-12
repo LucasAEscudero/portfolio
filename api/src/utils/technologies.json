@@ -1,92 +1,110 @@
 [
   {
     "name": "HTML",
+    "order": 1,
     "type": "frontend",
-    "image": "https://drive.google.com/uc?export=view&id=1ysrfUF2BGiepc2e4sAx_9S9QTtiPZrhg"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019713/technologiesIcons/html_jcl3ng.png"
   },
   {
     "name": "CSS",
+    "order": 2,
     "type": "frontend",
-    "image": "https://drive.google.com/uc?export=view&id=1WBPqPhS6pu_SU7V9OW2X2a1a2HJCHVYo"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019714/technologiesIcons/css_rzvsep.png"
   },
   {
     "name": "Bootstrap",
+    "order": 3,
     "type": "frontend",
-    "image": "https://drive.google.com/uc?export=view&id=1_XrEbLBAyWXQ4uq61bR7KYZXtckv-Yow"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019700/technologiesIcons/bootstrap_wgmiuf.png"
   },
   {
-    "name": "JS",
+    "name": "JavaScript",
+    "order": 4,
     "type": "frontend",
-    "image": "https://drive.google.com/uc?export=view&id=12ygWa1NYAzQV8YK2GZu2geG5syGca-3p"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019712/technologiesIcons/javascript_oazdos.png"
   },
   {
     "name": "React",
+    "order": 5,
     "type": "frontend",
-    "image": "https://drive.google.com/uc?export=view&id=1AQ_aGsIzxbUYslR1FA6qCui9owHTpImW"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019707/technologiesIcons/react_dggumf.png"
   },
   {
     "name": "Vite",
+    "order": 6,
     "type": "frontend",
     "image": "https://es.vitejs.dev/logo.svg"
   },
   {
     "name": "Redux",
+    "order": 7,
     "type": "frontend",
-    "image": "https://drive.google.com/uc?export=view&id=1IUSYmaPvMFn11Dust13ut2hCy18On5N2"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019704/technologiesIcons/redux_amva4t.png"
   },
   {
-    "name": "JS",
+    "name": "JavaScript",
+    "order": 8,
     "type": "backend",
-    "image": "https://drive.google.com/uc?export=view&id=12ygWa1NYAzQV8YK2GZu2geG5syGca-3p"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019712/technologiesIcons/javascript_oazdos.png"
   },
   {
     "name": "NodeJS",
+    "order": 9,
     "type": "backend",
-    "image": "https://drive.google.com/uc?export=view&id=15nxXzUxU_A8b-W9bznDcW75QAPdSNvhS"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019710/technologiesIcons/nodejs_kdynt0.png"
   },
   {
     "name": "Express",
+    "order": 10,
     "type": "backend",
-    "image": "https://drive.google.com/uc?export=view&id=1WIwwNln80i55LPvmmVpfX11Y6mAw_VA3"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019701/technologiesIcons/express_kofhdi.png"
   },
   {
     "name": "PostgreSQL",
+    "order": 11,
     "type": "backend",
-    "image": "https://drive.google.com/uc?export=view&id=1vFzC39gg3CkaHYDNSgB-XsqFJ4fWlkPl"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019708/technologiesIcons/postgresql_qxbewp.png"
   },
   {
     "name": "Sequelize",
+    "order": 12,
     "type": "backend",
-    "image": "https://drive.google.com/uc?export=view&id=18fxuwDXmzpHsa6BSpIaGKZet2Kgh_wWp"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019704/technologiesIcons/sequelize_qhwn7o.png"
   },
   {
     "name": "Git",
+    "order": 13,
     "type": "devops",
-    "image": "https://drive.google.com/uc?export=view&id=1FLci8yPPbLESjvw5XB1OHgk0MU5NpHOY"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019721/technologiesIcons/git_liqu9o.png"
   },
   {
     "name": "Jira",
+    "order": 14,
     "type": "devops",
-    "image": "https://drive.google.com/uc?export=view&id=146I0VXCRZ-5nPXrVerRc27o5X1sRnYBG"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019720/technologiesIcons/jira_kcmovw.webp"
   },
   {
     "name": "VSC",
+    "order": 15,
     "type": "devops",
-    "image": "https://drive.google.com/uc?export=view&id=1bbkBmKyf1rFIM7DHOfapZ5LzHoaNK2Uw"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019716/technologiesIcons/vsc_ykvbnt.png"
   },
   {
     "name": "Bootstrap",
+    "order": 16,
     "type": "learning",
-    "image": "https://drive.google.com/uc?export=view&id=1_XrEbLBAyWXQ4uq61bR7KYZXtckv-Yow"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019700/technologiesIcons/bootstrap_wgmiuf.png"
   },
   {
     "name": "Typescript",
+    "order": 17,
     "type": "learning",
-    "image": "https://drive.google.com/uc?export=view&id=1QBA4J-cXDZbH70wml4HEP3zgRmpvKw9d"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019718/technologiesIcons/typescript_efe6ug.png"
   },
   {
     "name": "MongoDB",
+    "order": 18,
     "type": "learning",
-    "image": "https://drive.google.com/uc?export=view&id=1yulyuydCVQSLrzWSKQkCFGh_A8afCmNL"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019717/technologiesIcons/mongodb_krsyeu.png"
   }
 ]
