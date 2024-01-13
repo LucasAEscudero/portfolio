@@ -1,12 +1,14 @@
 import Fade from "react-awesome-reveal";
-// import { IoLogoGithub } from "react-icons/io";
-import { useSelector } from "react-redux";
+import useGet from "../../hooks/useGet";
+import { useEffect, useState } from "react";
 
-// import projects from "../../utils/projects.json";
 import ProjectCard from "../../components/projectCard/ProjectCard";
 
 const Projects = () => {
-  const { projects } = useSelector((state) => state);
+  const [projects, setProjects] = useState([]);
+  useEffect(() => {
+    useGet({ url: "./src/utils/projects.json", setFunction: setProjects });
+  }, []);
 
   return (
     <section className="container py-3" id="projects">

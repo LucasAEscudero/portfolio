@@ -1,11 +1,18 @@
 import TechCards from "../../components/techCards/TechCards";
-// import technologies from "../../utils/technologies.json";
-import { useSelector } from "react-redux";
+import { useEffect, useState } from "react";
+import useGet from "../../hooks/useGet";
 
 import "./Technologies.css";
 
 const Technologies = () => {
-  const { technologies } = useSelector((state) => state);
+  const [technologies, setTechnologies] = useState([]);
+
+  useEffect(() => {
+    useGet({
+      url: "./src/utils/technologies.json",
+      setFunction: setTechnologies,
+    });
+  }, []);
 
   return (
     <section className="container py-3 my-2" id="technologies">
@@ -42,7 +49,7 @@ const Technologies = () => {
         )}
         {technologies.find((tech) => tech.type === "learning") && (
           <article className="row d-flex flex-wrap justify-content-center mt-2">
-            <h3>¿Que estoy aprendiendo?</h3>
+            <h3>¿Que me interesa aprender?</h3>
             <TechCards
               technologies={technologies.filter(
                 (tech) => tech.type === "learning"
