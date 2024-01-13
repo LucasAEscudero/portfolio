@@ -3,4 +3,4 @@
   <h1>Portfolio</h1>
 </div>
 
-My personal portfolio using HTML, CSS, Bootstrap, JavaScript, React y Git.
+My personal portfolio using HTML, CSS, Bootstrap, JavaScript, React and Git.
