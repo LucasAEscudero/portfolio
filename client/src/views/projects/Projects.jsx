@@ -9,7 +9,7 @@ const Projects = () => {
   const { projects } = useSelector((state) => state);
 
   return (
-    <div className="container py-3" id="projects">
+    <section className="container py-3" id="projects">
       <div className="row">
         <h2 style={{ color: "var(--text-antiBackground)" }}>Proyectos</h2>
       </div>
@@ -31,7 +31,7 @@ const Projects = () => {
           ))}
         </Fade>
       </div>
-    </div>
+    </section>
   );
 };
 

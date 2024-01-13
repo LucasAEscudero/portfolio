@@ -1,6 +1,12 @@
 # api ignore
 /api/node_modules
+<<<<<<< HEAD
 /api/.env
+=======
+/api/pnpm-lock.yaml
+/api/.env
+/api/src/utils/cors.js
+>>>>>>> parent of 09806d1 (delete api)
 
 # client ignore
 /client/node_modules
