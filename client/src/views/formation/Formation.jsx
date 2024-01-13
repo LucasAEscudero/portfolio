@@ -1,6 +1,5 @@
 import cv from "../../utils/CV - Escudero Lucas.pdf";
-import useGet from "../../hooks/useGet";
-import { useEffect, useState } from "react";
+import training from "../../utils/training.json";
 
 import FormationCard from "../../components/formationCard/FormationCard";
 
@@ -9,12 +8,6 @@ import Fade from "react-awesome-reveal";
 import "./Formation.css";
 
 const Formation = () => {
-  const [training, setTraining] = useState([]);
-
-  useEffect(() => {
-    useGet({ url: "./src/utils/training.json", setFunction: setTraining });
-  }, []);
-
   return (
     <div className="container py-3" id="formation">
       <div className="row">

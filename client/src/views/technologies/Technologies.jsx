@@ -1,19 +1,9 @@
 import TechCards from "../../components/techCards/TechCards";
-import { useEffect, useState } from "react";
-import useGet from "../../hooks/useGet";
+import technologies from "../../utils/technologies.json";
 
 import "./Technologies.css";
 
 const Technologies = () => {
-  const [technologies, setTechnologies] = useState([]);
-
-  useEffect(() => {
-    useGet({
-      url: "./src/utils/technologies.json",
-      setFunction: setTechnologies,
-    });
-  }, []);
-
   return (
     <section className="container py-3 my-2" id="technologies">
       <h2 className="fs-2">Tecnologias</h2>

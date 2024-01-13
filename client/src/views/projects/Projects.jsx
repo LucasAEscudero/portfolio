@@ -1,15 +1,9 @@
 import Fade from "react-awesome-reveal";
-import useGet from "../../hooks/useGet";
-import { useEffect, useState } from "react";
+import projects from "../../utils/projects.json";
 
 import ProjectCard from "../../components/projectCard/ProjectCard";
 
 const Projects = () => {
-  const [projects, setProjects] = useState([]);
-  useEffect(() => {
-    useGet({ url: "./src/utils/projects.json", setFunction: setProjects });
-  }, []);
-
   return (
     <section className="container py-3" id="projects">
       <div className="row">
