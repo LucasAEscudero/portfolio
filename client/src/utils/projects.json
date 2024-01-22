@@ -51,7 +51,7 @@
     ],
     "links": {
       "github": "https://github.com/LucasAEscudero/Videogames_Proyect",
-      "deploy": "https://videogamesfront-production-f967.up.railway.app/"
+      "deploy": "https://videogames-j2d9.onrender.com"
     },
     "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019679/Videogames_c6wnd6.png",
     "collaborators": false,
