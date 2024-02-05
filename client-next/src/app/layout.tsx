@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Nav />
-        <main>{children}</main>
+        <main className="mx-[15%]">{children}</main>
         <Footer />
       </body>
     </html>
