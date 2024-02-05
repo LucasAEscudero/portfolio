@@ -37,7 +37,7 @@
     "title": "NASA Images",
     "varName": "nasaimages",
     "resume": "App usando la API de la NASA",
-    "description": "Desarrolle que tenía como objetivo renderizar imágenes provenientes de la API de la NASA, teniendo así una landing page que se actualiza cada dia con una imagen nueva proveniente de la API, una galería dinámica, un apartado de favoritos (las imágenes renderizadas pueden agregarse al mismo) y los detalles de cada imagen con su explicación.",
+    "description": "Desarrolle una aplicación web que tenía como objetivo renderizar imágenes provenientes de la API de la NASA, teniendo así una landing page que se actualiza cada dia con una imagen nueva proveniente de la API, una galería dinámica, un apartado de favoritos (las imágenes renderizadas pueden agregarse al mismo) y los detalles de cada imagen con su explicación.",
     "technologies": [
       "HTML",
       "CSS",
