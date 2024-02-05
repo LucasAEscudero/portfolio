@@ -34,6 +34,28 @@
     "date": "Nov. 2023 - Dic. 2023"
   },
   {
+    "title": "NASA Images",
+    "varName": "nasaimages",
+    "resume": "App usando la API de la NASA",
+    "description": "Desarrolle una aplicación web que renderiza imágenes provenientes de la API de la NASA, teniendo así una página de inicio, una galería, un apartado de favoritos (las imágenes renderizadas pueden agregarse al mismo) y los detalles de cada imagen con su explicación.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Tailwind",
+      "Typescript",
+      "React",
+      "Next",
+      "Zustand"
+    ],
+    "links": {
+      "github": "https://github.com/LucasAEscudero/nasa_images",
+      "deploy": "https://nasa-images-drab.vercel.app/"
+    },
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1707161397/nasaImages_coxbk8.png",
+    "collaborators": false,
+    "date": "Ene. 2023 - Feb. 2023"
+  },
+  {
     "title": "Videogames",
     "varName": "videogames",
     "resume": "App usando la API de Rawg",

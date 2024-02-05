@@ -7,7 +7,7 @@ const ProjectTechCard = ({ name, icon }) => {
       <img
         src={icon}
         alt={`${name} icon`}
-        style={{ maxWidth: "2.5em", maxHeight: "1em" }}
+        style={{ maxWidth: "2.5em", maxHeight: "1em", marginRight: "7.5px" }}
         className="mr-3"
       />
       <h5 className="mb-0">{name}</h5>

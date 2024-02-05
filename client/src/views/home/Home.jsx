@@ -26,9 +26,9 @@ const Home = () => {
       <Nav isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
       <Profile />
       <div className="container" id="information">
-        <Formation />
-        <Technologies />
         <Projects />
+        <Technologies />
+        <Formation />
       </div>
       <Contact isDarkMode={isDarkMode} />
       <Toaster />

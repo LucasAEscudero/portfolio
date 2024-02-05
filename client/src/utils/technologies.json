@@ -18,10 +18,22 @@
     "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019700/technologiesIcons/bootstrap_wgmiuf.png"
   },
   {
+    "name": "Tailwind",
+    "order": 3.2,
+    "type": "frontend",
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1707161240/tailwind_zmwfm4.png"
+  },
+  {
     "name": "JavaScript",
     "order": 4,
     "type": "frontend",
     "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019712/technologiesIcons/javascript_oazdos.png"
+  },
+  {
+    "name": "Typescript",
+    "order": 4.2,
+    "type": "frontend",
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019718/technologiesIcons/typescript_efe6ug.png"
   },
   {
     "name": "React",
@@ -36,10 +48,22 @@
     "image": "https://es.vitejs.dev/logo.svg"
   },
   {
+    "name": "Next",
+    "order": 6.2,
+    "type": "frontend",
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1707161288/next-js.256x256_kkymbd.png"
+  },
+  {
     "name": "Redux",
     "order": 7,
     "type": "frontend",
     "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019704/technologiesIcons/redux_amva4t.png"
+  },
+  {
+    "name": "Zustand",
+    "order": 7.2,
+    "type": "frontend",
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1707161180/zustand_tw5pyx.png"
   },
   {
     "name": "JavaScript",
@@ -76,6 +100,12 @@
     "order": 13,
     "type": "devops",
     "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019721/technologiesIcons/git_liqu9o.png"
+  },
+  {
+    "name": "GitHub",
+    "order": 13.2,
+    "type": "devops",
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1707161344/github_p99sfs.png"
   },
   {
     "name": "Jira",

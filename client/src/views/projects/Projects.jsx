@@ -23,6 +23,7 @@ const Projects = () => {
               deploy={project.links?.deploy}
               github={project.links?.github}
               date={project?.date}
+              image={project?.image}
             />
           ))}
         </Fade>

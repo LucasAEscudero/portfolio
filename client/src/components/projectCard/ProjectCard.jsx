@@ -4,11 +4,6 @@ import { IoLogoGithub } from "react-icons/io";
 import { MdWeb } from "react-icons/md";
 import { FaYoutube } from "react-icons/fa";
 
-// projects
-import rickandmorty from "../../assets/projectsAssets/RickandMorty.jpeg";
-import videogames from "../../assets/projectsAssets/Videogames.png";
-import cer03 from "../../assets/projectsAssets/Cer03.jpeg";
-
 // techs
 import iconHtml from "../../assets/technologiesIcons/html.png";
 import iconCss from "../../assets/technologiesIcons/css.png";
@@ -21,6 +16,10 @@ import iconPostgresql from "../../assets/technologiesIcons/postgresql.png";
 import iconSequelize from "../../assets/technologiesIcons/sequelize.png";
 import iconGit from "../../assets/technologiesIcons/git.png";
 import iconJira from "../../assets/technologiesIcons/jira.png";
+import iconTypescript from "../../assets/technologiesIcons/typescript.png";
+import iconTailwind from "../../assets/technologiesIcons/tailwind.png";
+import iconZustand from "../../assets/technologiesIcons/zustand.png";
+import iconNext from "../../assets/technologiesIcons/next.png";
 
 import "./ProjectCard.css";
 
@@ -34,14 +33,8 @@ const ProjectCard = ({
   deploy,
   github,
   date,
-  // collaborators,
+  image,
 }) => {
-  const projectImages = {
-    rickandmorty,
-    videogames,
-    cer03,
-  };
-
   const icons = {
     html: iconHtml,
     css: iconCss,
@@ -55,6 +48,10 @@ const ProjectCard = ({
     sequelize: iconSequelize,
     git: iconGit,
     jira: iconJira,
+    typescript: iconTypescript,
+    tailwind: iconTailwind,
+    zustand: iconZustand,
+    next: iconNext,
   };
 
   return (
@@ -66,7 +63,7 @@ const ProjectCard = ({
         {/* body */}
         <div class="card-body row">
           <img
-            src={projectImages[varName]}
+            src={image}
             alt={title}
             className="col-md-12 col-xl-5 mx-auto"
             style={{ maxWidth: "400px", maxHeight: "300px" }}
