@@ -120,16 +120,22 @@
     "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019716/technologiesIcons/vsc_ykvbnt.png"
   },
   {
-    "name": "Bootstrap",
+    "name": "Tailwind",
     "order": 16,
     "type": "learning",
-    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019700/technologiesIcons/bootstrap_wgmiuf.png"
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1707161240/tailwind_zmwfm4.png"
   },
   {
     "name": "Typescript",
     "order": 17,
     "type": "learning",
     "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019718/technologiesIcons/typescript_efe6ug.png"
+  },
+  {
+    "name": "Next",
+    "order": 17.2,
+    "type": "learning",
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1707161288/next-js.256x256_kkymbd.png"
   },
   {
     "name": "MongoDB",

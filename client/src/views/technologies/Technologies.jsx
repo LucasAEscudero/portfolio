@@ -39,7 +39,7 @@ const Technologies = () => {
         )}
         {technologies.find((tech) => tech.type === "learning") && (
           <article className="row d-flex flex-wrap justify-content-center mt-2">
-            <h3>¿Que me interesa aprender?</h3>
+            <h3>¿Que me encuentro aprendiendo/practicando?</h3>
             <TechCards
               technologies={technologies.filter(
                 (tech) => tech.type === "learning"
