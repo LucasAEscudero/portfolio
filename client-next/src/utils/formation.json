@@ -1,16 +1,23 @@
 [
   {
+    "title": "Next.js Developer",
+    "academy": "Codigo Facilito",
+    "description": "Bootcamp de React Avanzado con Next.js con un total de 9 semanas de video-clases.",
+    "certificate": "Certificado Bootcamp Next",
+    "status": "Finalizado"
+  },
+  {
     "title": "FullStack Developer",
     "academy": "Henry",
     "description": "Bootcamp de desarollo web con +800 horas de cursada. En el aprendi tecnologias tales como HTML, CSS, JavaScript, React, Node.js, Express y base de datos.",
     "certificate": "http://d2rf2c6bvm78n9.cloudfront.net/new-cert?id=e5bb9376b79495dfe3da4060d92845b4126c1d97e75f2fed99bae9929b13e0bc",
-    "date": "Ago. 2023 - Ene. 2024"
+    "status": "Finalizado"
   },
   {
     "title": "Ing. en Informatica",
     "academy": "UNLAM",
-    "description": "Actualmente me encuentro cursando el primer año de la carrera de ingenieria en informatica.",
+    "description": "Carrera de Ingenieria en Informatica.",
     "certificate": "",
-    "date": "Abr. 2022 - Actualidad"
+    "status": "En curso"
   }
 ]

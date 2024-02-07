@@ -17,7 +17,6 @@ export default function Nav() {
     <header className="bg-stone-900 rounded-b sticky top-0 z-50">
       <nav className="flex justify-between md:justify-center items-center h-12 relative mx-2">
         <div className="flex items-center gap-8">
-          <h2 className="hover:cursor-default">Lucas Escudero</h2>
           <ul className="hidden md:flex md:gap-4">
             <NavItems name="Perfil" link="#profile" />
             <NavItems name="Projectos" link="#projects" />

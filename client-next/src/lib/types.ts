@@ -13,7 +13,15 @@ export interface TProject {
 
 export interface TTechnology {
   name: string;
-  order: number;
+  // order: number;
   type: string;
-  icon: string;
+  url: string;
+}
+
+export interface TFormation {
+  title: string;
+  academy: string;
+  description: string;
+  certificate?: string;
+  status: string;
 }

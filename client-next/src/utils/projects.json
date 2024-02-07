@@ -2,7 +2,7 @@
   {
     "title": "Cer03",
     "slug": "cer03",
-    "resume": "App de posventa",
+    "resume": "Junto con un grupo de compañeros desarrollamos una aplicación web de posventa, con el propósito de simplificar el trabajo a los pequeños negocios de la gestión de ventas y productos, y potenciar aún más a las grandes empresas.",
     "description": "Junto con un grupo de compañeros desarrollamos una aplicación web de posventa, con el propósito de simplificar el trabajo a los pequeños negocios de la gestión de ventas y productos, y potenciar aún más a las grandes empresas.",
     "role": {
       "text": "Como uno de los integrantes del proyecto me encargue de: ",
@@ -34,9 +34,31 @@
     "date": "Nov. 2023 - Dic. 2023"
   },
   {
+    "title": "NASA Images",
+    "slug": "nasaimages",
+    "resume": "Desarrolle una aplicación web usando la API de imagenes de la NASA, la cual tenia como objetivo renderizar, buscar, agregar a favoritos y ver detalles de imagenes que proporciona la API, la cual se actualiza cada dia con una imagen nueva.",
+    "description": "Desarrolle una aplicación web que tenía como objetivo renderizar imágenes provenientes de la API de la NASA, teniendo así una landing page que se actualiza cada dia con una imagen nueva proveniente de la API, una galería dinámica, un apartado de favoritos (las imágenes renderizadas pueden agregarse al mismo) y los detalles de cada imagen con su explicación.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Tailwind",
+      "Typescript",
+      "React",
+      "Next",
+      "Zustand"
+    ],
+    "links": {
+      "github": "https://github.com/LucasAEscudero/nasa_images",
+      "deploy": "https://nasa-images-drab.vercel.app/"
+    },
+    "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1707161397/nasaImages_coxbk8.png",
+    "collaborators": false,
+    "date": "Ene. 2023 - Feb. 2023"
+  },
+  {
     "title": "Videogames",
     "slug": "videogames",
-    "resume": "App usando la API de Rawg",
+    "resume": "Desarrolle una aplicación web usando la API de RAWG, la cual tenia como objetivo renderizar, filtrar, buscar, crear y ver detalles de videojuegos.",
     "description": "Desarrolle una aplicación web que renderiza videojuegos en tarjetas de la API de RAGW (API de videojuegos) con un paginado de 15 videojuegos (cada uno con sus respectivos detalles) por pagina + filtros y ordenamientos, en la cual se puede buscar (15 primeros resultados) y crear un videojuego como tal a través de un formulario con validaciones en javascript.",
     "technologies": [
       "HTML",
@@ -60,7 +82,7 @@
   {
     "title": "Rick and morty",
     "slug": "rickandmorty",
-    "resume": "App usando la API de Rick and Morty",
+    "resume": "Desarrolle una aplicación web usando la API de Rick and Morty, la cual tenia como objetivo renderizar, filtrar, agregar a favoritos y ver detalles de los personajes iconicos de la serie.",
     "description": "Desarrolle una app web con un sistema de login (con validaciones hechas en javascript) que tenía como objetivo renderizar y buscar personajes del programa Rick and Morty específicos o aleatoriamente utilizando la Rick-And-Morty-API (API de Rick and Morty), ver características de cada personaje, agregarlos a tus favoritos y/o eliminarlos, además de otras funciones extras como filtrarlos y ordenarlos, mostrar todos los personajes (catalogo) y reproducir música icónica del programa",
     "technologies": [
       "HTML",
