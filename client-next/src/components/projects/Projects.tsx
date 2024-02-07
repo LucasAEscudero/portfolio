@@ -4,7 +4,7 @@ import { TProject } from "@/lib/types";
 
 export default async function Projects() {
   return (
-    <section className="my-3">
+    <section className="my-3 md:mx-[125px]" id="projects">
       <h2 className="text-3xl text-center">Proyectos</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 items-start gap-3">
         {projects?.map((project: TProject, i: number) => (

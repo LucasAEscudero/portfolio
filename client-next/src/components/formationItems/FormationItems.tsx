@@ -2,8 +2,6 @@ import { TFormation } from "@/lib/types";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Link from "next/link";
 
-// import certificadoBootcampNext from "@/utils/Certificado Bootcamp Next.pdf";
-
 import "./FormationItems.css";
 
 export default function FormationItems({
@@ -13,13 +11,13 @@ export default function FormationItems({
   formation: TFormation;
   index: number;
 }) {
-  // const certificates = {
-  //   certificadoBootcampNext,
-  // };
-
   return (
-    <tr className="p-[1em] md:p-0 md:border-t">
-      {index !== 0 && <div className="border-t-[1px] mb-3 md:hidden"></div>}
+    <tr
+      className={`p-[1em] md:p-0 md:border-t ${
+        index !== 0 && "border-t-[1px] mb-3"
+      }`}
+    >
+      {/* {index !== 0 && <div className="border-t-[1px] mb-3 md:hidden"></div>} */}
       <td className="p-1" data-title="Titulo">
         {title}
       </td>

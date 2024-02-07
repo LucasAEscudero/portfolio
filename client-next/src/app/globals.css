@@ -38,7 +38,12 @@ body {
   }
 }
 
-#container {
+[id] {
+  scroll-margin-top: 3.8em;
+}
+
+.card,
+.container {
   background: linear-gradient(
     135deg,
     rgba(255, 255, 255, 0.1),

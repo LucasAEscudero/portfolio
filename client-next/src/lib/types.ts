@@ -8,7 +8,7 @@ export interface TProject {
   links: { github: string; deploy?: string; youtube?: string };
   image: string;
   date: string;
-  collaborators: boolean;
+  tags: { collaborators: boolean; academy: string };
 }
 
 export interface TTechnology {

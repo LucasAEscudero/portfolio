@@ -14,12 +14,12 @@ export default function Nav() {
   };
 
   return (
-    <header className="bg-stone-900 rounded-b sticky top-0 z-50">
+    <header>
       <nav className="flex justify-between md:justify-center items-center h-12 relative mx-2">
         <div className="flex items-center gap-8">
           <ul className="hidden md:flex md:gap-4">
             <NavItems name="Perfil" link="#profile" />
-            <NavItems name="Projectos" link="#projects" />
+            <NavItems name="Proyectos" link="#projects" />
             <NavItems name="Formacion" link="#formation" />
             <NavItems name="Tecnologias" link="#technologies" />
             <NavItems name="Contacto" link="#contact" />

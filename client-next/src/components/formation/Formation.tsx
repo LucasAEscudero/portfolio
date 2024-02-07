@@ -1,22 +1,31 @@
 "use client";
-import formation from "@/utils/formation.json";
+import formationjson from "@/utils/formation.json";
 import FormationItems from "../formationItems/FormationItems";
 import { TFormation } from "@/lib/types";
-// import CV from "@/utils/CV - Escudero Lucas";
 import Link from "next/link";
+
+import { useEffect, useState } from "react";
 
 import "./Formation.css";
 
 export default function Formation() {
+  const [formation, setFormation] = useState<TFormation[]>([]);
+
+  useEffect(() => {
+    if (formationjson) setFormation([...formationjson]);
+  }, []);
+
   return (
-    <section className="my-8 py-4 flex justify-center flex-col border-t">
+    <section
+      className="my-8 py-4 flex justify-center flex-col border-t md:mx-15"
+      id="formation"
+    >
       <h2 className="text-3xl text-center">Formacion</h2>
       <Link
         href="/CV - Escudero Lucas.pdf"
         target="_blank"
         id="button"
-        className="curriculum p-2 rounded-xl m-auto my-3"
-        // className="p-2 rounded-xl hover:text-[#1a365d] hover:bg-[#1a365d]"
+        className="p-2 rounded-xl m-auto my-3"
       >
         Ver curriculum
       </Link>

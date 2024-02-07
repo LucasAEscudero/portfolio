@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-  table thead {
+  table thead tr {
     display: none;
   }
 

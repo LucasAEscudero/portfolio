@@ -30,7 +30,10 @@
       "deploy": "https://cer03.vercel.app/"
     },
     "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019677/Cer03_up18x9.jpg",
-    "collaborators": true,
+    "tags": {
+      "collaborators": true,
+      "academy": "Henry"
+    },
     "date": "Nov. 2023 - Dic. 2023"
   },
   {
@@ -52,7 +55,10 @@
       "deploy": "https://nasa-images-drab.vercel.app/"
     },
     "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1707161397/nasaImages_coxbk8.png",
-    "collaborators": false,
+    "tags": {
+      "collaborators": false,
+      "academy": "Autonomo"
+    },
     "date": "Ene. 2023 - Feb. 2023"
   },
   {
@@ -76,7 +82,10 @@
       "deploy": "https://videogamesfront-production-f967.up.railway.app/"
     },
     "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019679/Videogames_c6wnd6.png",
-    "collaborators": false,
+    "tags": {
+      "collaborators": false,
+      "academy": "Henry"
+    },
     "date": "Oct. 2023 -Nov. 2023"
   },
   {
@@ -100,7 +109,10 @@
       "youtube": "https://www.youtube.com/watch?v=zRdht6-k8bE"
     },
     "image": "https://res.cloudinary.com/dub4acwkh/image/upload/v1705019678/RickandMorty_g26l6q.jpg",
-    "collaborators": false,
+    "tags": {
+      "collaborators": false,
+      "academy": "Henry"
+    },
     "date": "Ago. 2023 - Oct. 2023"
   }
 ]
