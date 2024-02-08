@@ -8,7 +8,7 @@ import { useEffect } from "react";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Technologies() {
-  const { ref, inView } = useInView({ threshold: 0.5 });
+  const { ref, inView } = useInView();
   const { setActiveSection } = useActiveSectionContext();
 
   useEffect(() => {
