@@ -1,13 +1,21 @@
+"use client";
 import { TProject } from "@/lib/types";
 import Image from "next/image";
 import Link from "next/link";
 import { FaExternalLinkAlt, FaGithub, FaYoutube } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 import "./ProjectCard.css";
 
 interface Props {
   project: TProject;
+  i: number;
 }
+
+const variants = {
+  hidden: { opacity: 0 },
+  visible: { opacity: 1 },
+};
 
 export default function ProjectCard({
   project: {
@@ -17,11 +25,19 @@ export default function ProjectCard({
     technologies,
     date,
     links: { github, deploy, youtube },
-    tags: { collaborators, academy },
+    // tags: { collaborators, academy },
   },
+  i,
 }: Props) {
   return (
-    <article className="card m-3 rounded-md transition-all min-h-[250px] border-2">
+    <motion.article
+      className="card m-3 rounded-md transition-all min-h-[250px] border-2 hover:scale-105 hover:z-100"
+      variants={variants}
+      initial="hidden"
+      animate="visible"
+      transition={{ delay: 0.2 * i, ease: "easeInOut", duration: 0.5 }}
+      viewport={{ amount: 0 }}
+    >
       <Image
         src={image}
         alt={`${title} - image`}
@@ -82,6 +98,6 @@ export default function ProjectCard({
           </div>
         </div>
       </div>
-    </article>
+    </motion.article>
   );
 }

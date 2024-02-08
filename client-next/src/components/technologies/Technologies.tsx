@@ -1,10 +1,28 @@
+"use client";
 import technologies from "@/utils/technologies.json";
 import TechnologyCard from "../technologyCard/TechnologyCard";
 import { TTechnology } from "@/lib/types";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Technologies() {
+  const { ref, inView } = useInView({ threshold: 0.5 });
+  const { setActiveSection } = useActiveSectionContext();
+
+  useEffect(() => {
+    if (inView) setActiveSection("Tecnologias");
+  }, [inView, setActiveSection]);
+
   return (
-    <section className="p-5 rounded-md" id="technologies">
+    <motion.section
+      ref={ref}
+      className="p-5 rounded-md scroll-mt-28"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      id="technologies"
+    >
       <h2 className="text-3xl text-center mb-3">Tecnologias</h2>
       <div className="container px-3">
         <article className="my-3">
@@ -67,6 +85,6 @@ export default function Technologies() {
           </div>
         </article>
       </div>
-    </section>
+    </motion.section>
   );
 }

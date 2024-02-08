@@ -3,7 +3,9 @@ import formationjson from "@/utils/formation.json";
 import FormationItems from "../formationItems/FormationItems";
 import { TFormation } from "@/lib/types";
 import Link from "next/link";
-
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useActiveSectionContext } from "@/context/active-section-context";
 import { useEffect, useState } from "react";
 
 import "./Formation.css";
@@ -15,9 +17,17 @@ export default function Formation() {
     if (formationjson) setFormation([...formationjson]);
   }, []);
 
+  const { ref, inView } = useInView({});
+  const { setActiveSection } = useActiveSectionContext();
+
+  useEffect(() => {
+    if (inView) setActiveSection("Formacion");
+  }, [inView, setActiveSection]);
+
   return (
     <section
-      className="my-8 py-4 flex justify-center flex-col border-t md:mx-15"
+      ref={ref}
+      className="my-8 py-4 flex justify-center flex-col border-t md:mx-15 scroll-mt-28"
       id="formation"
     >
       <h2 className="text-3xl text-center">Formacion</h2>
@@ -30,7 +40,7 @@ export default function Formation() {
         Ver curriculum
       </Link>
       <table
-        className="text-start md:text-center mt-3 w-full md:border"
+        className="container text-start md:text-center mt-3 w-full md:border"
         id="container"
       >
         <thead>
@@ -44,11 +54,7 @@ export default function Formation() {
         </thead>
         <tbody>
           {formation?.map((form: TFormation, i: number) => (
-            <FormationItems
-              key={`${form.title}-${i}`}
-              formation={form}
-              index={i}
-            />
+            <FormationItems key={`${form.title}-${i}`} formation={form} i={i} />
           ))}
         </tbody>
       </table>

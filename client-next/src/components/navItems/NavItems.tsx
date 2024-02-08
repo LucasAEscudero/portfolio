@@ -1,5 +1,5 @@
 "use client";
-import { useRouter, usePathname } from "next/navigation";
+import { useRouter, usePathname, useSearchParams } from "next/navigation";
 
 interface Props {
   name: string;
@@ -8,10 +8,13 @@ interface Props {
 
 export default function NavItems({ name, link }: Props) {
   const router = useRouter();
+  const path = usePathname();
 
   return (
     <li
-      className="cursor-pointer hover:bg-slate-600 p-1 rounded text-center"
+      className={`cursor-pointer hover:border-b-1 p-1 text-center ${
+        link === path && "border-b-2"
+      } ${path === "/" && link === "#profile" && "border-b-2"}`}
       onClick={() => router.push(link)}
     >
       {name}

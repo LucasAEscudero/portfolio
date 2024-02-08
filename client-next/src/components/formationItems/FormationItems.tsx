@@ -1,21 +1,26 @@
 import { TFormation } from "@/lib/types";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Link from "next/link";
+import { motion } from "framer-motion";
+import clsx from "clsx";
 
 import "./FormationItems.css";
 
 export default function FormationItems({
   formation: { title, academy, description, certificate, status },
-  index,
+  i,
 }: {
   formation: TFormation;
-  index: number;
+  i: number;
 }) {
   return (
-    <tr
-      className={`p-[1em] md:p-0 md:border-t ${
-        index !== 0 && "border-t-[1px] mb-3"
-      }`}
+    <motion.tr
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: i * 0.2 }}
+      className={clsx("p-[1em] md:p-0 md:border-t", {
+        "border-t-[1px] mb-3": i !== 0,
+      })}
     >
       {/* {index !== 0 && <div className="border-t-[1px] mb-3 md:hidden"></div>} */}
       <td className="p-1" data-title="Titulo">
@@ -47,6 +52,6 @@ export default function FormationItems({
           -
         </td>
       )}
-    </tr>
+    </motion.tr>
   );
 }
