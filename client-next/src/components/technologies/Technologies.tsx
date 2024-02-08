@@ -1,6 +1,7 @@
 "use client";
 import technologies from "@/utils/technologies.json";
 import TechnologyCard from "../technologyCard/TechnologyCard";
+import Title from "../title/Title";
 import { TTechnology } from "@/lib/types";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -18,12 +19,12 @@ export default function Technologies() {
   return (
     <motion.section
       ref={ref}
-      className="p-5 rounded-md scroll-mt-28"
+      className="p-5 rounded-md md:!scroll-mt-[5rem] !scroll-mt-[7.5rem]"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       id="technologies"
     >
-      <h2 className="text-3xl text-center mb-3">Tecnologias</h2>
+      <Title text="Tecnologias" />
       <div className="container px-3">
         <article className="my-3">
           <h3 className="text-2xl text-center mb-2">Frontend</h3>

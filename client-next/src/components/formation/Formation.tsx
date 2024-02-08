@@ -1,6 +1,7 @@
 "use client";
 import formationjson from "@/utils/formation.json";
 import FormationItems from "../formationItems/FormationItems";
+import Title from "../title/Title";
 import { TFormation } from "@/lib/types";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -27,10 +28,10 @@ export default function Formation() {
   return (
     <section
       ref={ref}
-      className="my-8 py-4 flex justify-center flex-col border-t md:mx-15 scroll-mt-28"
+      className="my-8 py-4 flex justify-center flex-col md:mx-15 md:!scroll-mt-[5rem] !scroll-mt-[7.5rem]"
       id="formation"
     >
-      <h2 className="text-3xl text-center">Formacion</h2>
+      <Title text="Formacion" />
       <Link
         href="/CV - Escudero Lucas.pdf"
         target="_blank"

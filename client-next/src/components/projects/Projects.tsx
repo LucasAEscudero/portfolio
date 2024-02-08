@@ -1,6 +1,7 @@
 "use client";
 import projects from "@/utils/projects.json";
 import ProjectCard from "../projectCard/ProjectCard";
+import Title from "../title/Title";
 import { TProject } from "@/lib/types";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
@@ -18,10 +19,10 @@ export default function Projects() {
   return (
     <section
       ref={ref}
-      className="my-3 md:mx-[125px] !scroll-mt-[5rem]"
+      className="my-3 md:mx-[125px] md:!scroll-mt-[5rem] !scroll-mt-[7.5rem]"
       id="projects"
     >
-      <h2 className="text-3xl text-center">Proyectos</h2>
+      <Title text="Proyectos" />
       <div className="grid grid-cols-1 md:grid-cols-2 items-start gap-3 mt-2">
         {projects?.map((project: TProject, i: number) => (
           <ProjectCard key={`${project.title}-${i}`} project={project} i={i} />
