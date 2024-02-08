@@ -42,7 +42,7 @@ export default function Nav() {
   const { activeSection, setActiveSection } = useActiveSectionContext();
 
   return (
-    <header className="z-[999] relative mb-[5rem]">
+    <header className="z-[999] relative mb-[7.5rem] sm:mb-[5rem]">
       {/* <nav className="flex justify-between md:justify-center items-center h-12 relative mx-2">
         <div className="flex items-center gap-8">
           <ul className="hidden md:flex md:gap-4">
@@ -76,7 +76,7 @@ export default function Nav() {
         </div>
       )} */}
       <motion.div
-        className="container fixed top-0 left-1/2 -translate-x-1/2 h-[6rem] sm:h-[2.75rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:w-[36rem] sm:rounded-full"
+        className="container fixed top-0 left-1/2 -translate-x-1/2 h-[6rem] sm:h-[2.6rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:w-[36rem] sm:rounded-full"
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       >

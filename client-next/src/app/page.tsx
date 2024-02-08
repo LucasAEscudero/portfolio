@@ -7,10 +7,8 @@ import Contact from "@/components/contact/Contact";
 export default function Home() {
   return (
     <>
-      {/* <div className="h-[90vh] flex justify-center items-center mb-2">
-        <h2 className="text-3xl text-center">Hola, soy Lucas Escudero!</h2>
-      </div> */}
       <Profile />
+
       <Projects />
       <Technologies />
       <Formation />
