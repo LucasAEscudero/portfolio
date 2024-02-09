@@ -22,7 +22,7 @@ export default function Projects() {
       className="my-3 md:mx-[125px] md:!scroll-mt-[5rem] !scroll-mt-[7.5rem]"
       id="projects"
     >
-      <Title text="Proyectos" marginBottom={3} />
+      <Title text="Proyecto" marginBottom={3} />
       <div className="grid grid-cols-1 md:grid-cols-2 items-start gap-3 mt-2">
         {projects?.map((project: TProject, i: number) => (
           <ProjectCard key={`${project.title}-${i}`} project={project} i={i} />
