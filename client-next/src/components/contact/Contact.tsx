@@ -5,7 +5,6 @@ import { useEffect } from "react";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { FaPaperPlane } from "react-icons/fa";
 import { sendEmail } from "@/lib/actions";
-import toast from "react-hot-toast";
 import { successNotification, errorNotification } from "../notification";
 
 import Title from "../title/Title";
@@ -23,6 +22,7 @@ export default function Contact() {
 
   return (
     <motion.section
+      ref={ref}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}

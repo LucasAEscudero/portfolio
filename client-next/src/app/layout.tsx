@@ -6,6 +6,8 @@ import "./globals.css";
 import Nav from "@/components/nav/Nav";
 import Footer from "@/components/footer/Footer";
 import ActiveSectionContextProvider from "@/context/active-section-context";
+import ThemeSwitch from "@/components/ThemeSwitch";
+import ThemeContextProvider from "@/context/theme-context";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,13 +23,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="!scroll-smooth">
-      <body className={inter.className}>
-        <ActiveSectionContextProvider>
-          <Nav />
-          <main className="mx-10">{children}</main>
-          <Footer />
-          <Toaster position="bottom-right" />
-        </ActiveSectionContextProvider>
+      <body className={`${inter.className} bg-[#3575dd] dark:bg-[#1a365d]`}>
+        <ThemeContextProvider>
+          <ActiveSectionContextProvider>
+            <Nav />
+            <main className="mx-10">{children}</main>
+            <Footer />
+            <ThemeSwitch />
+            <Toaster position="bottom-right" />
+          </ActiveSectionContextProvider>
+        </ThemeContextProvider>
       </body>
     </html>
   );

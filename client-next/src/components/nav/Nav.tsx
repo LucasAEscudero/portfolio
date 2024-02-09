@@ -81,7 +81,7 @@ export default function Nav() {
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       >
         <nav className="fixed left-1/2 h-12 -translate-x-1/2 py-2 sm:h-[initial] sm:py-0">
-          <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium sm:w-[initial] sm:flex-nowrap sm:gap-5 text-[#737373]">
+          <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium sm:w-[initial] sm:flex-nowrap sm:gap-5 dark:text-[#737373] text-gray-800">
             {links.map((link) => (
               <motion.li
                 className="h-3/4 flex items-center justify-center my-1 relative"

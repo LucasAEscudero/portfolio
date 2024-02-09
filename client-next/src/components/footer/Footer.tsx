@@ -6,24 +6,15 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="mt-2 py-1 border-t-[1px]" id="contact">
-      <h2 className="text-center text-lg">Contacto: </h2>
-      <div className="flex justify-center space-x-2 mt-2">
-        <Link
-          href="https://www.linkedin.com/in/lucas-escudero-54195322b/"
-          target="_blank"
-          className="hover:text-blue-700 flex justify-center"
-        >
-          <FaLinkedin size={25} className="mr-1" /> LinkedIn
-        </Link>
-        <Link
-          href="https://github.com/LucasAEscudero"
-          target="_blank"
-          className="hover:text-[#1c1917] flex justify-center"
-        >
-          <FaGithub size={25} className="mr-1" /> GitHub
-        </Link>
-      </div>
+    <footer className="mt-10 mb-5 px-4 text-center" id="contact">
+      <small className="mb-2 text-xs block">
+        &copy; 2024 Lucas. Todos los derechos reservados.
+      </small>
+      <p className="text-xs">
+        <span className="font-semibold">Sobre este sitio web:</span> creado con
+        React & Next.js (App Router & Server Actions), Typescript, Tailwind CSS,
+        Framer Motion, React Email & Resend, Vercel hosting{" "}
+      </p>
     </footer>
   );
 }
