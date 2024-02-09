@@ -40,7 +40,7 @@ export default function ProjectCard({
         alt={`${title} - image`}
         width={300}
         height={50}
-        className="rounded-t w-full max-h-[250px]"
+        className="rounded-t w-full max-h-[250px] lg:max-h-[150px]"
       />
       <div className="m-4">
         <div>
