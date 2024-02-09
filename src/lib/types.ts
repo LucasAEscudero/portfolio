@@ -1,3 +1,5 @@
+import { links } from "./links";
+
 export interface TProject {
   title: string;
   slug: string;
@@ -25,3 +27,5 @@ export interface TFormation {
   certificate?: string;
   status: string;
 }
+
+export type SectionName = (typeof links)[number]["name"];

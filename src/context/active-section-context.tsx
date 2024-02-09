@@ -1,5 +1,5 @@
 "use client";
-import { links } from "@/components/nav/Nav";
+import { links } from "@/lib/links";
 import { createContext, useContext, useState } from "react";
 
 type SectionName = (typeof links)[number]["name"];
