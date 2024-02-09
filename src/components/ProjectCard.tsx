@@ -23,7 +23,6 @@ export default function ProjectCard({
     technologies,
     date,
     links: { github, deploy, youtube },
-    // tags: { collaborators, academy },
   },
   i,
 }: Props) {

@@ -24,8 +24,10 @@ export default function Formation() {
   }, [inView, setActiveSection]);
 
   return (
-    <section
+    <motion.section
       ref={ref}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
       className="my-8 py-4 flex justify-center flex-col md:mx-15 md:!scroll-mt-[5rem] !scroll-mt-[7.5rem]"
       id="formation"
     >
@@ -57,6 +59,6 @@ export default function Formation() {
           ))}
         </tbody>
       </table>
-    </section>
+    </motion.section>
   );
 }
