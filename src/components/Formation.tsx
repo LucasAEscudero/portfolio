@@ -3,7 +3,7 @@ import formationjson from "@/lib/formation.json";
 import FormationItems from "./FormationItems";
 import Title from "./Title";
 import { TFormation } from "@/lib/types";
-import Link from "next/link";
+// import Link from "next/link";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from "@/context/active-section-context";
@@ -32,14 +32,14 @@ export default function Formation() {
       id="formation"
     >
       <Title text="Formacion" marginBottom={3} />
-      <Link
+      {/* <Link
         href="/CV - Escudero Lucas.pdf"
         target="_blank"
         id="button"
         className="p-2 rounded-xl m-auto my-3"
       >
         Ver curriculum
-      </Link>
+      </Link> */}
       <table
         className="container text-start md:text-center mt-3 w-full md:border"
         id="container"

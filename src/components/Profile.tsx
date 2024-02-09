@@ -52,12 +52,14 @@ export default function Profile() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
       >
-        <button className="p-2" id="button">
+        {/* buttons */}
+        <button className="button group">
           <Link href="#contact" className="flex gap-2 items-center">
-            Contactame aca! <FaArrowRight />
+            Contactame aca!{" "}
+            <FaArrowRight className="transition-all group-hover:translate-x-1" />
           </Link>
         </button>
-        <button className="p-2" id="button">
+        <button className="button">
           <Link
             href="/CV - Escudero Lucas.pdf"
             target="_blank"

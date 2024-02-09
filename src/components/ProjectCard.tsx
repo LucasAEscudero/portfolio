@@ -51,7 +51,7 @@ export default function ProjectCard({
           {technologies?.map((technology) => (
             <li
               key={`${title}-${technology}`}
-              className="technology bg-stone-900 backdrop-blur-md rounded-full px-2"
+              className="tag bg-stone-900 backdrop-blur-md rounded-full px-2"
             >
               {technology}
             </li>
@@ -63,8 +63,7 @@ export default function ProjectCard({
             <Link
               href={github}
               target="_blank"
-              id="button"
-              className="p-1"
+              className="button"
               title="Repositorio"
             >
               <FaGithub size={25} />
@@ -73,8 +72,7 @@ export default function ProjectCard({
               <Link
                 href={youtube}
                 target="_blank"
-                id="button"
-                className="p-1"
+                className="button"
                 title="Video de muestra"
               >
                 <FaYoutube size={25} />
@@ -84,8 +82,7 @@ export default function ProjectCard({
               <Link
                 href={deploy}
                 target="_blank"
-                id="button"
-                className="p-1 px-2 flex items-center"
+                className="button flex items-center"
                 title="Deploy"
               >
                 <span className="mr-2 hidden md:inline-block">Deploy</span>

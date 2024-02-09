@@ -40,7 +40,7 @@ export default function FormationItems({
                 ? certificate
                 : `/certificate/${certificate}.pdf`
             }
-            className="flex justify-center items-center hover:text-[#1a365d]"
+            className="flex justify-center items-center hover:scale-110"
             target="_blank"
           >
             <FaExternalLinkAlt />

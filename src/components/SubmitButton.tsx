@@ -6,7 +6,7 @@ export default function SubmitButton() {
 
   return (
     <button
-      className="flex items-center justify-center gap-2 p-2 outline-none w-[8rem] transition-all group hover:scale-105 disabled:bg-opacity-75"
+      className="button flex items-center justify-center gap-2 group w-[8rem] transition-all disabled:bg-opacity-75"
       type="submit"
       disabled={pending}
       id="button"
