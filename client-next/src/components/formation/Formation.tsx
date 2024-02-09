@@ -31,7 +31,7 @@ export default function Formation() {
       className="my-8 py-4 flex justify-center flex-col md:mx-15 md:!scroll-mt-[5rem] !scroll-mt-[7.5rem]"
       id="formation"
     >
-      <Title text="Formacion" />
+      <Title text="Formacion" marginBottom={3} />
       <Link
         href="/CV - Escudero Lucas.pdf"
         target="_blank"

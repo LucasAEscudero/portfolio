@@ -24,7 +24,7 @@ export default function Technologies() {
       animate={{ opacity: 1 }}
       id="technologies"
     >
-      <Title text="Tecnologias" />
+      <Title text="Tecnologias" marginBottom={3} />
       <div className="container px-3">
         <article className="my-3">
           <h3 className="text-2xl text-center mb-2">Frontend</h3>

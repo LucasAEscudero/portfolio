@@ -73,7 +73,7 @@ export default function Profile() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <Title text="Sobre mi" />
+        <Title text="Sobre mi" marginBottom={3} />
         <p className="text-md mt-2 sm:mx-[10rem]">
           Soy una persona con un ferviente deseo de explorar y expandir mis
           habilidades en el vasto universo de la informática, con un enfoque que
