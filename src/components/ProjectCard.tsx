@@ -28,7 +28,7 @@ export default function ProjectCard({
 }: Props) {
   return (
     <motion.article
-      className="card m-3 rounded-md transition-all min-h-[250px] border-2 hover:scale-105 hover:z-100"
+      className="card m-3 rounded-md transition-all min-h-[250px] border-2 hover:scale-105"
       variants={variants}
       initial="hidden"
       animate="visible"
@@ -86,7 +86,7 @@ export default function ProjectCard({
                 title="Deploy"
               >
                 <span className="mr-2 hidden md:inline-block">Deploy</span>
-                <FaExternalLinkAlt size={20} />
+                <FaExternalLinkAlt size={18} />
               </Link>
             )}
           </div>
