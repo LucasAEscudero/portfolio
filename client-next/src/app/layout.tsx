@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Toaster } from "react-hot-toast";
 import "./globals.css";
 
 import Nav from "@/components/nav/Nav";
@@ -25,6 +26,7 @@ export default function RootLayout({
           <Nav />
           <main className="mx-10">{children}</main>
           <Footer />
+          <Toaster position="bottom-right" />
         </ActiveSectionContextProvider>
       </body>
     </html>

@@ -1,22 +1,10 @@
 "use server";
 import React from "react";
 import { Resend } from "resend";
-import { validateString } from "./utils";
+import { validateString, getErrorMessage } from "./utils";
 import ContactFormEmail from "@/email/contact-form-email";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-
-const getErrorMessage = (error: unknown): string => {
-  let message: string;
-
-  if (error instanceof Error) message = error.message;
-  else if (error && typeof error === "object" && "message" in error)
-    message = String(error.message);
-  else if (typeof error === "string") message = error;
-  else message = "Something error";
-
-  return message;
-};
 
 export const sendEmail = async (formData: FormData) => {
   const senderEmail = formData.get("email");
@@ -26,8 +14,9 @@ export const sendEmail = async (formData: FormData) => {
     return { error: "Invalid sender email" };
   if (!validateString(message, 5000)) return { error: "Invalid message" };
 
+  let data;
   try {
-    resend.emails.send({
+    data = await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>",
       to: "lucasescudero5629@gmail.com",
       subject: "Message from contact form",
@@ -42,4 +31,6 @@ export const sendEmail = async (formData: FormData) => {
   } catch (error: unknown) {
     return { error: getErrorMessage(error) };
   }
+
+  return { data, error: data.error?.message };
 };

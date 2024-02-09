@@ -5,8 +5,11 @@ import { useEffect } from "react";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { FaPaperPlane } from "react-icons/fa";
 import { sendEmail } from "@/lib/actions";
+import toast from "react-hot-toast";
+import { successNotification, errorNotification } from "../notification";
 
 import Title from "../title/Title";
+import SubmitButton from "../SubmitButton";
 
 export default function Contact() {
   const { ref, inView } = useInView({
@@ -23,6 +26,8 @@ export default function Contact() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
       className="p-2 rounded-md w-[min(100%,38rem)] md:!scroll-mt-[5rem] !scroll-mt-[7.5rem] m-auto"
       id="contact"
     >
@@ -35,7 +40,18 @@ export default function Contact() {
         o a traves de este formulario.
       </p>
 
-      <form className="flex flex-col gap-3 mt-3" action={sendEmail}>
+      <form
+        className="flex flex-col gap-3 mt-3"
+        action={async (formData) => {
+          const { data, error } = await sendEmail(formData);
+
+          if (error)
+            errorNotification("Escribe una direccion de correo valida.");
+          else if (data)
+            successNotification("El email fue enviado correctamente!");
+          else errorNotification("Ha ocurrido un error.");
+        }}
+      >
         <input
           type="email"
           name="email"
@@ -53,17 +69,7 @@ export default function Contact() {
           className="container outline-none p-1"
           placeholder="Tu mensaje"
         ></textarea>
-        <button
-          className="flex items-center justify-center gap-2 p-2 outline-none w-[8rem] transition-all group hover:scale-105"
-          type="submit"
-          id="button"
-        >
-          Enviar{" "}
-          <FaPaperPlane
-            size={15}
-            className="text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:-translate-y-1"
-          />
-        </button>
+        <SubmitButton />
       </form>
     </motion.section>
   );
