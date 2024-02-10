@@ -14,7 +14,23 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Lucas | Personal Portfolio",
-  description: "Lucas is a fullstack developer",
+  description:
+    "Soy un fullstack developer y estudiante de Ingenieria en Informatica con un ferviente deseo de explorar y expandir mis habilidades en el vasto universo de la informática.",
+  authors: {
+    url: "https://www.linkedin.com/in/lucas-escudero-54195322b/",
+    name: "Lucas Agustin Escudero",
+  },
+  keywords:
+    "portfolio, Luca Escudero, fullstack, web, frontend, presentacion, desarrollador web, proyectos, email, tecnologias",
+  openGraph: {
+    title: "Lucas Escudero | Personal Portfolio",
+    description:
+      "Soy un fullstack developer y estudiante de Ingenieria en Informatica con un ferviente deseo de explorar y expandir mis habilidades en el vasto universo de la informática.",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
+  metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
 };
 
 export default function RootLayout({
