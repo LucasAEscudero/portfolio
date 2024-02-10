@@ -53,21 +53,22 @@ export default function Profile() {
         animate={{ opacity: 1 }}
       >
         {/* buttons */}
-        <button className="button group">
-          <Link href="#contact" className="flex gap-2 items-center">
-            Contactame aca!{" "}
-            <FaArrowRight className="transition-all group-hover:translate-x-1" />
-          </Link>
-        </button>
-        <button className="button">
-          <Link
-            href="/CV - Escudero Lucas.pdf"
-            target="_blank"
-            className="flex gap-2 items-center"
-          >
-            Ver CV <MdDownload size={20} />
-          </Link>
-        </button>
+        <Link
+          type="button"
+          href="#contact"
+          className="button group flex gap-2 items-center"
+        >
+          Contactame aca!{" "}
+          <FaArrowRight className="transition-all group-hover:translate-x-1" />
+        </Link>
+        <Link
+          type="button"
+          href="/CV - Escudero Lucas.pdf"
+          target="_blank"
+          className="button flex gap-2 items-center"
+        >
+          Ver CV <MdDownload size={20} />
+        </Link>
       </motion.div>
 
       <motion.div
