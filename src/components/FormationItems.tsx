@@ -38,7 +38,7 @@ export default function FormationItems({
             href={
               certificate.includes("http")
                 ? certificate
-                : `/certificate/${certificate}.pdf`
+                : `/certificates/${certificate}.pdf`
             }
             className="flex justify-center items-center hover:scale-110"
             target="_blank"

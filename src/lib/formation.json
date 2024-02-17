@@ -7,6 +7,13 @@
     "status": "Finalizado"
   },
   {
+    "title": "Docker DevOps",
+    "academy": "Codigo Facilito",
+    "description": "Curso Profesional de Docker con una duracion de 3hs y 30m de video-clases.",
+    "certificate": "Certificado Curso Docker",
+    "status": "Finalizado"
+  },
+  {
     "title": "FullStack Developer",
     "academy": "Henry",
     "description": "Bootcamp de desarollo web con +800 horas de cursada. En el aprendi tecnologias tales como HTML, CSS, JavaScript, React, Node.js, Express y base de datos.",
