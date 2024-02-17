@@ -63,7 +63,7 @@ export default function Profile() {
         </Link>
         <Link
           type="button"
-          href="/CV - Escudero Lucas.pdf"
+          href="/Escudero Lucas Fullstack.pdf"
           target="_blank"
           className="button flex gap-2 items-center"
         >
