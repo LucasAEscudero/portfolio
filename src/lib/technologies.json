@@ -105,6 +105,11 @@
     "url": "https://res.cloudinary.com/dub4acwkh/image/upload/v1707250893/technologiesIcons/jira_mbeugk.png"
   },
   {
+    "name": "Docker",
+    "type": "tool",
+    "url": "https://res.cloudinary.com/dub4acwkh/image/upload/v1708200655/technologiesIcons/docker_ixdvf8.png"
+  },
+  {
     "name": "Typescript",
     "type": "learn",
     "url": "https://res.cloudinary.com/dub4acwkh/image/upload/v1707251143/technologiesIcons/typescript_rn9fnx_nhvlas.png"
