@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import Link from "next/link";
 
@@ -68,6 +68,22 @@ export default function Profile() {
           className="button flex gap-2 items-center"
         >
           Ver CV <MdDownload size={20} />
+        </Link>
+        <Link
+          type="button"
+          href="https://www.linkedin.com/in/lucas-escudero-54195322b/"
+          target="_blank"
+          className="button group flex gap-2 items-center"
+        >
+          <FaLinkedin size={20} />
+        </Link>
+        <Link
+          type="button"
+          href="https://github.com/LucasAEscudero"
+          target="_blank"
+          className="button flex gap-2 items-center"
+        >
+          <FaGithub size={20} />
         </Link>
       </motion.div>
 
