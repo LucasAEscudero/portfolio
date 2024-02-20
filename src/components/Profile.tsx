@@ -48,13 +48,14 @@ export default function Profile() {
         <br /> Fullstack Developer y estudiante de Ing. en Informatica.
       </motion.p>
       <motion.div
-        className="flex justify-center gap-3 mt-4"
+        className="flex justify-center flex-wrap gap-3 mt-4"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
       >
         {/* buttons */}
         <Link
           type="button"
+          title="Contactame aca!"
           href="#contact"
           className="button group flex gap-2 items-center"
         >
@@ -63,6 +64,7 @@ export default function Profile() {
         </Link>
         <Link
           type="button"
+          title="Ver curriculum"
           href="/Escudero Lucas Fullstack.pdf"
           target="_blank"
           className="button flex gap-2 items-center"
@@ -71,6 +73,7 @@ export default function Profile() {
         </Link>
         <Link
           type="button"
+          title="LinkedIn"
           href="https://www.linkedin.com/in/lucas-escudero-54195322b/"
           target="_blank"
           className="button group flex gap-2 items-center"
@@ -79,6 +82,7 @@ export default function Profile() {
         </Link>
         <Link
           type="button"
+          title="GitHub"
           href="https://github.com/LucasAEscudero"
           target="_blank"
           className="button flex gap-2 items-center"

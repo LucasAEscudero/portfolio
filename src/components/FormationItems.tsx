@@ -35,6 +35,7 @@ export default function FormationItems({
       {certificate ? (
         <td className="p-1" data-title="Certificado">
           <Link
+            title="Ver certificado"
             href={
               certificate.includes("http")
                 ? certificate

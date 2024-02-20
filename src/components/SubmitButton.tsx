@@ -8,6 +8,7 @@ export default function SubmitButton() {
     <button
       className="button flex items-center justify-center gap-2 group w-[8rem] transition-all disabled:bg-opacity-75"
       type="submit"
+      title="Enviar!"
       disabled={pending}
       id="button"
     >
