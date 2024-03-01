@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import { Toaster } from "react-hot-toast";
 
 import "./globals.css";
@@ -44,7 +45,10 @@ export default function RootLayout({
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Nav />
-            <main className="mx-10">{children}</main>
+            <main className="mx-10">
+              {children}
+              <Analytics />
+            </main>
             <Footer />
             <ThemeSwitch />
             <Toaster position="bottom-right" />
